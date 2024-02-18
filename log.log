@@ -1,0 +1,18 @@
+Feb 18, 2024 2:00:49 AM kass.concurrente.ThreadCifrado <clinit>
+INFO: My first log
+Feb 18, 2024 2:00:49 AM kass.concurrente.ThreadCifrado run
+INFO: HILO: 0 INICIADO con cuenta: 0 con valores: a a
+Feb 18, 2024 2:00:49 AM kass.concurrente.ThreadCifrado run
+INFO: HILO: 3 INICIADO con cuenta: 0 con valores: t t
+Feb 18, 2024 2:00:49 AM kass.concurrente.ThreadCifrado run
+INFO: HILO: 2 INICIADO con cuenta: 0 con valores: n n
+Feb 18, 2024 2:00:49 AM kass.concurrente.ThreadCifrado run
+INFO: HILO: 1 INICIADO con cuenta: 0 con valores: g g
+Feb 18, 2024 2:01:02 AM kass.concurrente.ThreadCifrado run
+INFO: HILO: 0 TERMINADO con cuenta: 2851530
+Feb 18, 2024 2:01:02 AM kass.concurrente.ThreadCifrado run
+INFO: HILO: 2 TERMINADO con cuenta: 2851530
+Feb 18, 2024 2:01:03 AM kass.concurrente.ThreadCifrado run
+INFO: HILO: 3 TERMINADO con cuenta: 3326785
+Feb 18, 2024 2:01:03 AM kass.concurrente.ThreadCifrado run
+INFO: HILO: 1 TERMINADO con cuenta: 3326785

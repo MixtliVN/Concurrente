@@ -1,0 +1,8 @@
+Feb 18, 2024 2:00:49 AM kass.concurrente.Main main
+INFO: My first log
+Feb 18, 2024 2:01:03 AM kass.concurrente.Main runThreads
+INFO: FIN DE EJECUCION HILOS
+Feb 18, 2024 2:01:03 AM kass.concurrente.Main main
+INFO: TIEMPO TOTAL: 14.692400542000001
+Feb 18, 2024 2:01:03 AM kass.concurrente.Main main
+INFO: Practica 2

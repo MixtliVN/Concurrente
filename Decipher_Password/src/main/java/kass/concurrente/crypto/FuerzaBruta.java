@@ -6,10 +6,12 @@ import java.util.List;
 
 public class FuerzaBruta {
 
+
+    // ######|####### = 26^7 = 8,031,810,176
     public static final int N_THREADS = 2;
     public static final int N_CADENAS_POR_HILO = 2000;
-    public static final int MIN_LONGITUD = 4;
-    public static final int MAX_LONGITUD = 4;
+    public static final int MIN_LONGITUD = 7;
+    public static final int MAX_LONGITUD = 13;
 
     private static ArrayList<String> contrasennas = new ArrayList<>();
 
@@ -27,9 +29,7 @@ public class FuerzaBruta {
 
     private void generarCombinacionesRecursivo(String prefijo, String alfabeto, int longitud, List<String> resultado) {
         if (longitud == 0) {
-            synchronized (contrasennas) {
                 resultado.add((prefijo.charAt(0) + "").toUpperCase() + prefijo.substring(1));
-            }
             return;
         }
 
