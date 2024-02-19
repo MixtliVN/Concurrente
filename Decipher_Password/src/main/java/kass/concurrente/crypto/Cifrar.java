@@ -7,20 +7,22 @@ import java.nio.charset.StandardCharsets;
 
 /**
  * Clase que nos ayudara con el cifrado y descifrado
+ * 
  * @author Kassandra Mirael
  * @version 1.1
  */
 public class Cifrar {
     private static final String FRASE = "FraseLargaConDiferentesLetrasNumerosYCaracteresEspeciales_áÁéÉíÍóÓúÚüÜñÑ1234567890!#%$&()=%_NO_USAR_ESTA_FRASE!_";
-    
+
     /**
      * Metodo constructor
      */
-    private Cifrar(){}
-
+    private Cifrar() {
+    }
 
     /**
      * Metodo que nos ayudara a obtener el cifrado
+     * 
      * @param paraCifrar Booleano que nos dira si queremos encriptar o desencriptar
      * @return El cifrador en dicho modo
      * @throws Exception En caso de que falle algo
@@ -41,6 +43,7 @@ public class Cifrar {
 
     /**
      * Metodo que nos permite descifrar una arreglo de bytes
+     * 
      * @param cifrado El arreglo que contienen el cifrado
      * @return La cadena en texto plano
      * @throws Exception En caso de que falle
@@ -53,11 +56,12 @@ public class Cifrar {
 
     /**
      * Metodo que nos permite cifrar una palabra en texto plano
+     * 
      * @param sinCifrar El texto plano a cifrar
      * @return El arreglo de bytes ya cifrado
      * @throws Exception En caso de que falle
      */
-    public static  byte[] cifra(String sinCifrar) throws Exception {
+    public static byte[] cifra(String sinCifrar) throws Exception {
         final byte[] bytes = sinCifrar.getBytes(StandardCharsets.UTF_8);
         final Cipher aes = obtieneCipher(true);
         return aes.doFinal(bytes);
@@ -65,12 +69,13 @@ public class Cifrar {
 
     /**
      * Metodo que convierte un arreglo de bytes a una cadena
+     * 
      * @param bytes EL arreglo de bytes
      * @return El arreglo ya convertido en cadena
      */
-    private static String byteToString(byte[] bytes){
+    private static String byteToString(byte[] bytes) {
         String res = "";
-        for(int i = 0; i < bytes.length; ++i){
+        for (int i = 0; i < bytes.length; ++i) {
             res += bytes[i];
         }
         return res;
@@ -78,17 +83,14 @@ public class Cifrar {
 
     /**
      * metodo que magico que nos ayudara a resolver la practica
+     * 
      * @param palabraCifrada La llave que aparece en classroom
-     * @param contra La contrasenna que podria ser
+     * @param contra         La contrasenna que podria ser
      * @return true si es la contrasenna es correcta, false en otro caso
      * @throws Exception En caso de que falle
      */
     public static boolean descifraC(String palabraCifrada, String contra) throws Exception {
         byte[] res = cifra(contra);
-        //String palabra = byteToString(res);
-        //System.out.println("AQUI: " + palabra + " "+ palabraCifrada + " CONTRA: " + contra);//Descomentar en caso de querer hacer pruebas
         return byteToString(res).equals(palabraCifrada);
     }
-
-   
 }
