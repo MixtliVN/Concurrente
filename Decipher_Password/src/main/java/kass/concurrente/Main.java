@@ -1,21 +1,19 @@
 package kass.concurrente;
 
 
-import java.io.IOException;
+import java.util.logging.Level;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.FileHandler;
 import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
-
-import kass.concurrente.constants.Constante;
 
 
 public class Main {
 
     private static Logger logger = Logger.getGlobal();
     private static final int N_THREADS = 4;
+    private static List <String> prefixList = new ArrayList<>();
     
     
     /**
@@ -24,44 +22,26 @@ public class Main {
      * @throws Exception
      */
     public static void main(String[] args) {
-        FileHandler fh;  
 
-        try {  
-    
-            // This block configure the logger with handler and formatter  
-            fh = new FileHandler("./main_log.log");  
-            logger.addHandler(fh);
-            SimpleFormatter formatter = new SimpleFormatter();  
-            fh.setFormatter(formatter);  
-    
-            // the following statement is used to log any messages  
-            logger.info("My first log");  
-    
-        } catch (SecurityException e) {  
-            e.printStackTrace();  
-        } catch (IOException e) {  
-            e.printStackTrace();  
-        }  
+
         Long inicio = System.nanoTime();
 
-        if (N_THREADS == 1) {
-            runThreads(Constante.PREFIX_LIST_FOR_1_THREAD);
-        } else if (N_THREADS == 2) {
-            runThreads(Constante.PREFIX_LIST_FOR_2_THREADS);
-        } else if (N_THREADS == 4) {
-            runThreads(Constante.PREFIX_LIST_FOR_4_THREADS);
-        }
-        else if (N_THREADS == 26) {
-            runThreads(Constante.PREFIX_LIST_FOR_26_THREADS);
-        }
+        createListOfPrefix();
+        runThreads(N_THREADS);
 
         Long fin = System.nanoTime();
         Long total = fin - inicio;
-        logger.info("TIEMPO TOTAL: " + nanoSegundoASegundo(total));
+        logger.log(Level.INFO, "Tiempo de ejecucion: {0} segundos", nanoSegundoASegundo(total));
         logger.info("Practica 2");
 
-        //exit(0);
+    }
 
+    private static void createListOfPrefix() {
+        for (int i = 0; i < 26; i++) {
+            for (int j = 0; j < 26; j++) {
+                prefixList.add(""+ (char)(i+97) + (char)(j+97));
+            }
+        }
 
     }
 
@@ -70,19 +50,16 @@ public class Main {
     }
 
 
-    public static void runThreads(List <Character> prefixList) {
-        ExecutorService executor = java.util.concurrent.Executors.newFixedThreadPool(N_THREADS);
+    public static void runThreads(int nThreads) {
+        ExecutorService executor = java.util.concurrent.Executors.newFixedThreadPool(nThreads);
 
-        for (int i = 0; i < N_THREADS; i++) {
-            Character c = 'z'+1;
-            if (i < prefixList.size() -1 ) {
-                c = prefixList.get(i+1);
-                c =  Character.valueOf((char)((int)c.charValue()));
-            }
-            executor.execute(new ThreadCifrado(String.valueOf(i), prefixList.get(i), c));
-
-           
-
+        for (int i = 0; i < nThreads; i++) {
+            // We give each thread a sublist of the prefixList
+            int fromIndex = i * (prefixList.size() / nThreads);
+            int toIndex = (i + 1) * (prefixList.size() / nThreads);
+            List<String> subList = prefixList.subList(fromIndex, toIndex);
+            executor.execute(new ThreadCifrado("Thread " + i+1, subList));
+            
         }
 
         // wait until all threads are finished
@@ -91,6 +68,7 @@ public class Main {
             executor.awaitTermination(1, TimeUnit.DAYS);
         } catch (InterruptedException e) {
             logger.info("Error en la ejecucion de los hilos");
+            Thread.currentThread().interrupt();
         }
 
 

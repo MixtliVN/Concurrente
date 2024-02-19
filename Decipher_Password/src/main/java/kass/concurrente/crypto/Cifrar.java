@@ -3,7 +3,6 @@ package kass.concurrente.crypto;
 import java.security.MessageDigest;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
-import kass.concurrente.constants.Constante;
 import java.nio.charset.StandardCharsets;
 
 /**

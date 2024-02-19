@@ -1,7 +1,9 @@
 package kass.concurrente;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.logging.FileHandler;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
@@ -12,20 +14,24 @@ import kass.concurrente.crypto.Cifrar;
  * Clase Principal
  */
 public class ThreadCifrado implements Runnable {
-    public static final int MIN_LONGITUD = 5;
-    public static final int MAX_LONGITUD = 5;
-    private final int firstCharacterValue;
-    private final int lastCharacterValue;
+    public static final int MIN_LONGITUD = 4;
+    public static final int MAX_LONGITUD = 4;
+    private final List<String> prefixList;
     private String nombre;
     private int contador = 0;
+    private boolean isFirstWord = true;
+    private String lastWord = "";
     
     private static final Logger logger = Logger.getLogger(ThreadCifrado.class.getName());
 
-    public ThreadCifrado(String nombre, Character firstCharacter, Character lastCharacter) {
+    public ThreadCifrado(String nombre, List<String> prefixList) {
        
         this.nombre = nombre;
-        this.firstCharacterValue = (int) firstCharacter -97;
-        this.lastCharacterValue = (int) lastCharacter -97;
+        this.prefixList = prefixList;
+
+        logger.log(Level.INFO, "HILO: {0} CREADO", nombre);
+        // print prefix list in one line
+        System.out.println(prefixList);
     }
 
     static { 
@@ -42,47 +48,54 @@ public class ThreadCifrado implements Runnable {
             // the following statement is used to log any messages  
             logger.info("My first log");  
     
-        } catch (SecurityException e) {  
+        } catch (SecurityException | IOException e) {  
             e.printStackTrace();  
-        } catch (IOException e) {  
-            e.printStackTrace();  
-        }  
+        }   
     }
+    
     public void run() {
 
-        logger.info("HILO: " + nombre + " INICIADO" + " con cuenta: " + contador + " con valores: " + Constante.ALFABETO.charAt(firstCharacterValue) + " " + Constante.ALFABETO.charAt(firstCharacterValue));
+        logger.log(Level.INFO, "HILO: {0} INICIADO", nombre);
 
         
         for (int longitud = MIN_LONGITUD; longitud <= MAX_LONGITUD; longitud++) {
-            for (int i = firstCharacterValue; i < lastCharacterValue; i++) {
-                char letra = Constante.ALFABETO.charAt(i);
-                generarCombinacionesRecursivo(""+letra, Constante.ALFABETO, longitud - 1);
+            for (int i = 0; i < prefixList.size(); i++) {
+                String letra = prefixList.get(i);
+                generarCombinacionesRecursivo(""+letra, Constante.ALFABETO, longitud - 2);
             }
             
         }
 
-        logger.info("HILO: " + nombre + " TERMINADO con cuenta: " + contador);
+        logger.log(Level.INFO, "Hilo {0} terminado, La última palabra fue: {1}, el total de combinaciones fue: {2}", new Object[]{nombre, lastWord, contador});
     }
 
 
     private void generarCombinacionesRecursivo(String prefijo, String alfabeto, int longitud){
-        contador++;
 
         if (longitud == 0) {
+
+                if (isFirstWord) {
+                    logger.log(Level.INFO, "Hilo {0}: La primera palabra es: {1}", new Object[]{nombre, prefijo});
+                    isFirstWord = false;
+                }
+
+
+                contador++;
+
                 String cadena = (prefijo.charAt(0) + "") + prefijo.substring(1);
+
+                lastWord = cadena;
                 boolean esCorrecto = false;
                 try {
                     esCorrecto = Cifrar.descifraC(Constante.LLAVE, cadena);
                     if (esCorrecto) {
-                        logger.info(cadena);
-                        logger.info("CADENA ENCONTRADA: " + cadena);
-                        //Thread.currentThread().interrupt();
-                        
+                        logger.log(Level.INFO, "Hilo {0}, Encontró la palabra, es: {1}", new Object[]{nombre, cadena});
                     }
                     else {
-
-                        //logger.info(nombre + " CADENA NO ENCONTRADA: " + cadena);
-
+                        
+                        if (contador % 150000 == 0){
+                            logger.log(Level.INFO, "Hilo {0}: Llevamos {1} combinaciones, la palabra actual es {2}", new Object[]{nombre, contador, cadena});
+                        }
                     }
 
                 } catch (Exception e) {
