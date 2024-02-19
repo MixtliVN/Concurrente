@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 public class Main {
 
     private static Logger logger = Logger.getGlobal();
-    private static final int N_THREADS = 4;
+    private static final int N_THREADS = 8;
     private static List <String> prefixList = new ArrayList<>();
     
     
@@ -58,7 +58,7 @@ public class Main {
             int fromIndex = i * (prefixList.size() / nThreads);
             int toIndex = (i + 1) * (prefixList.size() / nThreads);
             List<String> subList = prefixList.subList(fromIndex, toIndex);
-            executor.execute(new ThreadCifrado("Thread " + i+1, subList));
+            executor.execute(new ThreadCifrado(String.valueOf(i+1), subList));
             
         }
 

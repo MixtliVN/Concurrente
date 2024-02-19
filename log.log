@@ -1,34 +1,50 @@
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado <clinit>
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado <clinit>
 INFO: My first log
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado <init>
-INFO: HILO: Thread 01 CREADO
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado <init>
-INFO: HILO: Thread 11 CREADO
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado run
-INFO: HILO: Thread 01 INICIADO
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado <init>
-INFO: HILO: Thread 21 CREADO
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado run
-INFO: HILO: Thread 11 INICIADO
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado run
-INFO: HILO: Thread 21 INICIADO
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado <init>
-INFO: HILO: Thread 31 CREADO
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
-INFO: Hilo Thread 21: La primera palabra es: naaa
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
-INFO: Hilo Thread 11: La primera palabra es: gnaa
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado run
-INFO: HILO: Thread 31 INICIADO
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
-INFO: Hilo Thread 01: La primera palabra es: aaaa
-Feb 18, 2024 6:52:58 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
-INFO: Hilo Thread 31: La primera palabra es: tnaa
-Feb 18, 2024 6:52:59 PM kass.concurrente.ThreadCifrado run
-INFO: Hilo Thread 11 terminado, La última palabra fue: mzzz, el total de combinaciones fue: 114,244
-Feb 18, 2024 6:52:59 PM kass.concurrente.ThreadCifrado run
-INFO: Hilo Thread 31 terminado, La última palabra fue: zzzz, el total de combinaciones fue: 114,244
-Feb 18, 2024 6:52:59 PM kass.concurrente.ThreadCifrado run
-INFO: Hilo Thread 21 terminado, La última palabra fue: tmzz, el total de combinaciones fue: 114,244
-Feb 18, 2024 6:52:59 PM kass.concurrente.ThreadCifrado run
-INFO: Hilo Thread 01 terminado, La última palabra fue: gmzz, el total de combinaciones fue: 114,244
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado <init>
+INFO: HILO: 1 CREADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado <init>
+INFO: HILO: 2 CREADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado run
+INFO: HILO: 1 INICIADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado <init>
+INFO: HILO: 3 CREADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado run
+INFO: HILO: 2 INICIADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado run
+INFO: HILO: 3 INICIADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado <init>
+INFO: HILO: 4 CREADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
+INFO: Hilo 1: La primera palabra es: aaaaaa
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado <init>
+INFO: HILO: 5 CREADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
+INFO: Hilo 3: La primera palabra es: gmaaaa
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
+INFO: Hilo 2: La primera palabra es: dgaaaa
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado run
+INFO: HILO: 5 INICIADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado <init>
+INFO: HILO: 6 CREADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado run
+INFO: HILO: 4 INICIADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado run
+INFO: HILO: 6 INICIADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado <init>
+INFO: HILO: 7 CREADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
+INFO: Hilo 5: La primera palabra es: myaaaa
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
+INFO: Hilo 6: La primera palabra es: qeaaaa
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
+INFO: Hilo 4: La primera palabra es: jsaaaa
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado run
+INFO: HILO: 7 INICIADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado <init>
+INFO: HILO: 8 CREADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
+INFO: Hilo 7: La primera palabra es: tkaaaa
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado run
+INFO: HILO: 8 INICIADO
+Feb 18, 2024 7:14:39 PM kass.concurrente.ThreadCifrado generarCombinacionesRecursivo
+INFO: Hilo 8: La primera palabra es: wqaaaa

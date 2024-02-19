@@ -11,7 +11,9 @@ public final class Constante {
     private Constante() {}
 
     public static final String CONTRASENNA = "Hola"; //Modificar por su contrasenna cuando la encuentren, es la unica con mayuscula
-    public static final String LLAVE = "-8682-120-36-16-607532-86-58127118-58-778743";
+    public static final String LLAVE = "1222-95-53-249763-817198120-89-867086-127";
+    public static final String LLAVE_HOLA = "-87-4-5711-89-255970888-80998286839";
+
     public static final Integer HILOS = 4;
     public static final String ALFABETO = "abcdefghijklmnopqrstuvwxyz";
 }

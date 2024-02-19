@@ -14,8 +14,8 @@ import kass.concurrente.crypto.Cifrar;
  * Clase Principal
  */
 public class ThreadCifrado implements Runnable {
-    public static final int MIN_LONGITUD = 4;
-    public static final int MAX_LONGITUD = 4;
+    public static final int MIN_LONGITUD = 6;
+    public static final int MAX_LONGITUD = 6;
     private final List<String> prefixList;
     private String nombre;
     private int contador = 0;
@@ -44,9 +44,6 @@ public class ThreadCifrado implements Runnable {
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();  
             fh.setFormatter(formatter);  
-    
-            // the following statement is used to log any messages  
-            logger.info("My first log");  
     
         } catch (SecurityException | IOException e) {  
             e.printStackTrace();  
@@ -89,13 +86,14 @@ public class ThreadCifrado implements Runnable {
                 try {
                     esCorrecto = Cifrar.descifraC(Constante.LLAVE, cadena);
                     if (esCorrecto) {
-                        logger.log(Level.INFO, "Hilo {0}, Encontró la palabra, es: {1}", new Object[]{nombre, cadena});
+                        logger.log(Level.INFO, "Hilo {0}, Encontró la palabra, es:[                    {1}                               ] ", new Object[]{nombre, cadena});
                     }
                     else {
-                        
-                        if (contador % 150000 == 0){
+                        /* 
+                        if (contador % 1000000 == 0){
                             logger.log(Level.INFO, "Hilo {0}: Llevamos {1} combinaciones, la palabra actual es {2}", new Object[]{nombre, contador, cadena});
                         }
+                        */
                     }
 
                 } catch (Exception e) {
