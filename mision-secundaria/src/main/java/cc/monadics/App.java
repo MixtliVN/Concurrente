@@ -5,6 +5,7 @@ import java.util.logging.Logger;
 import cc.monadics.Hilos.Constantes;
 import cc.monadics.Hilos.Matrices;
 import cc.monadics.Hilos.Producto;
+import cc.monadics.Secuencial.MatricesSecuencial;
 
 /**
  * @author Erick, Mixtli y Alex
@@ -25,6 +26,15 @@ public class App {
             calcularProducto();
             mostrarMatricesABC();
         }
+    }
+
+    /**
+     * Ejecuta el programa secuencial
+     */
+    public static void runSecuencial() {
+        cargarMatrices();
+        Integer[][] matrizC = MatricesSecuencial.multiplicarMatrices(Matrices.getMatrizA(), Matrices.getMatrizB());
+        Matrices.printMatriz(matrizC);
     }
 
     /**
@@ -90,6 +100,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        run();
+        run();// Paralelo
+        // runSecuencial(); // Secuencial
     }
 }
