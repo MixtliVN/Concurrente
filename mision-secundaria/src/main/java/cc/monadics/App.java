@@ -29,6 +29,16 @@ public class App {
     }
 
     /**
+     * Determina el tiempo
+     * 
+     * @param tiempo long
+     * @return double
+     */
+    public static double nanoSegundoASegundo(Long tiempo) {
+        return tiempo * 1.0 * Math.pow(10, -9);
+    }
+
+    /**
      * Ejecuta el programa secuencial
      */
     public static void runSecuencial() {
@@ -100,7 +110,11 @@ public class App {
     }
 
     public static void main(String[] args) {
+	Long inicio = System.nanoTime();
         run();// Paralelo
+	Long fin = System.nanoTime();
+        Long total = fin - inicio;
+	logger.info("Tiempo de ejecucion: " + nanoSegundoASegundo(total) + " segundos");
         // runSecuencial(); // Secuencial
     }
 }
