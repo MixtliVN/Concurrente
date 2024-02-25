@@ -1,0 +1,120 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[left=2cm,right=2cm,top=1.5cm,bottom=1.5cm]{geometry}
+\usepackage{biblatex}
+\addbibresource{Bib.bib}
+
+\begin{document}
+
+\thispagestyle{empty}
+	
+	\begin{figure}[ht]
+	   \minipage{0.76\textwidth}
+			\includegraphics[width=4cm]{Proyecto/IMAGES/Logo_UNAM.png}
+			\label{EscudoUNAM}
+	   \endminipage
+	   \minipage{0.32\textwidth}
+			\includegraphics[height = 4.9cm ,width=4cm]{Proyecto/IMAGES/Logo_FC.png}
+			\label{EscudoFC}
+		\endminipage
+	\end{figure}
+	
+	\begin{center}
+	\vspace{0.8cm}
+	\LARGE
+	UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO 
+	
+	\vspace{0.8cm}
+	\LARGE
+	FACULTAD DE CIENCIAS
+	
+	\vspace{.5cm}	
+	\Large
+	\textbf{Misión Secundaria}
+
+	\vspace{.7cm}
+	\normalsize	
+	EQUIPO \\
+	\vspace{.3cm}
+	\large
+	\textbf{Arroyo Martínez Erick Daniel} \\ 
+    \textbf{Terrazas Rivera Alex}\\
+    \textbf{Vergara Navarro Mixtli Arturo}
+	\vspace{.7cm}\\
+	\normalsize	
+	PROFESOR \\
+	\vspace{.3cm}
+	\large
+	\textbf{Gilde Valeria Rodríguez Jiménez}
+
+    \vspace{.7cm}
+	\normalsize	
+	AYUDANTES \\
+	\vspace{.3cm}
+	\large
+	\textbf{Rogelio Alcantar Arenas}\\
+    \textbf{Gibran Aguilar Zuñiga}\\
+    \textbf{Luis Angel Leyva Castillo}\\
+    \textbf{Rogelio Alcantar Arenas}
+	
+	\vspace{.7cm}
+	\normalsize	
+	ASIGNATURA \\
+	\vspace{.3cm}
+	\large
+	\textbf{Computación Concurrente}
+	
+	\vspace{.2cm}
+	\today
+	\end{center}
+	\newpage
+
+%%% Indice
+%\tableofcontents
+%\newpage
+\section*{Introducción}
+Este trabajo consiste en la elaboración de un sistema capaz de resolver el producto de matrices, de forma secuencial y paralela. Con el propósito ve analizar el rendimiento del sistema paralelo con respecto al secuencial. 
+\section*{Especificaciones}
+Como se pude observar en el código, la carga de valores pseudoaleatorios a cada entrada de las matrices A y B se realiza de forma paralela, pues le asignamos a cada hilo un fila de cada matriz. Además, asumimos que la prueba con un solo hilo corresponde al algoritmo secuencia, también realizado. Para las siguientes dos pruebas 100 y 1000 hilos, la métrica que usamos para evaluar estos casos es, dada nuestra implementación, necesitamos A$_{filas}$ * B$_{columnas}$ hilos, esto por conveniencia. Por lo tanto, para los últimos dos tests, bastarían matrices de 10x10 y 100x100, sin obviar que el sistema puede trabajar con cualesquiera dimensiones, siempre y cuando respecten la definición del producto.
+\section*{Análisis}
+Dato que la creación aleatoria de las entradas de las matrices es independiente del calculo del producto. Entonces, para determinar el porcentaje paralelizable de nuestro código usamos la formula:
+\begin{equation}
+T_{paralelo} = \frac{T_{Total} - T_{calculo}}{T_{Total}}
+\end{equation}
+Estos datos los obtuvimos por medio de determinar el segundos cuanto tarda un solo hilo en calcular una entrada (esto como media) con respecto a los N hilos requeridos que determinan todas las entradas. Entonces, sustituyendo tenemos:
+\begin{equation}
+T_{paralelo} = \frac{0.6023900000000001 - 1.5100000000000001 \times 10^{-5}}{0.6023900000000001} \approx
+0.999975
+\end{equation}
+Esto quiere decir que, prácticamente la completitud de nuestro código es paralelizable. Entonces, ya podemos determinar las entradas de nuestra tabla:
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+         \# Hilos & Aceleración Teórica & Aceleración Obtenida & \% Código Paralelo\\
+    \hline
+     1& 1 & 1 &  99\\
+    \hline
+    100& 50.2545 & 30.5555 &  99\\
+    \hline
+    1000& 90.9918 & & 183.3333 99\\
+    \hline
+    \end{tabular}
+    \caption{Análisis}
+    \label{tab:my_label}
+\end{table}
+\section*{Conocimiento Adquiridos} 
+Con la realización de este trabajo hemos podido observar uno de los contextos con mayor oportunidad para paralelizar un sistema. Pues, al delegarle a cada proceso una tarea independiente a la del resto, sin obviar nuestra capacidad de computo y recursos, podemos elevar el rendimiento de un sistema. Lo ideal es identificar las secciones que permiten esta intrusión de comportamiento paralelo. Cómo era de esperarse, a los códigos secuenciales (iterativos) deben realizar aún más operaciones que un sistema paralelo. En este caso, dado que la cantidad de hilos depende del ejemplar dado, podemos observar, de alguna manera, como la cantidad de ellos es directamente proporcional a la aceleración teórica. Pero no podemos garantizar esto para todos los escenarios, pues ya mencionamos que la cantidad de recursos disponibles juega un papel principal y muy importante a la hora de analizar y comparar distintas implementaciones.
+\end{document}
