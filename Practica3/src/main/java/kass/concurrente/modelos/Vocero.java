@@ -13,7 +13,7 @@ public class Vocero extends Prisionero {
 
     public Vocero(Integer id, Boolean esVocero, Boolean marcado) {
         super(id, esVocero, marcado);
-        this.contador = 2;
+        this.contador = 0;
         // Completar y hacer documentacion
     }
 

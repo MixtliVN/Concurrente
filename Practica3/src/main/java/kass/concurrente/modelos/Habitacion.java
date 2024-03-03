@@ -37,26 +37,26 @@ public class Habitacion {
      * @throws InterruptedException Si falla algun hilo
      */
     public Boolean entraHabitacion(Prisionero prisionero) throws InterruptedException {
-        System.out.format("  %d \t\t %b \t\t %b \t\t %b \n", prisionero.id, prisionero.esVocero,
-                prisionero.marcado, this.prendido);
         // Vocero
         if (prisionero.esVocero) {
             if (this.prendido) {// Esta prendido
                 ((Vocero) prisionero).setContador(((Vocero) prisionero).getContador() + 1);
                 this.prendido = false;
+		prisionero.marcado = true;
                 System.out.println("Contador de vocero : " + ((Vocero) prisionero).getContador());
-                if (((Vocero) prisionero).getContador().equals(2 * Contante.PRISIONEROS)) {
+                if (((Vocero) prisionero).getContador().equals((2 * Contante.PRISIONEROS) - 2)) {
                     System.out.println("\t TODOS HEMOS PASADO");
                     return false;
                 }
-
             }
         } else {
-            if (Boolean.FALSE.equals(this.prendido) && (Boolean.FALSE.equals(prisionero.marcado))) {
+            if (Boolean.FALSE.equals(this.prendido) && (prisionero.contadorInterno < 2)) {
                 this.prendido = true;
                 prisionero.marcado = true;
+		prisionero.contadorInterno = prisionero.contadorInterno + 1;
             }
         }
+	System.out.format("  %d \t\t %b \t\t %b \t\t %b \n", prisionero.id, prisionero.esVocero, prisionero.marcado, this.prendido);
         return true;
     }
 
