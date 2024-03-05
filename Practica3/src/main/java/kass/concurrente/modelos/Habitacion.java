@@ -1,6 +1,9 @@
 package kass.concurrente.modelos;
 
+import static kass.concurrente.constantes.Contante.LOGS;
+
 import java.util.Random;
+import java.util.logging.Logger;
 
 import kass.concurrente.constantes.Contante;
 
@@ -11,18 +14,19 @@ import kass.concurrente.constantes.Contante;
  * Se desconoce el estado inicial del foco (Usar un random, para que sea
  * pseudoaleatorio el estado inicial)
  * 
- * @author <Equipo>
+ * @author Monadics
  * @version 1.0
  */
 public class Habitacion {
     private Boolean prendido;
+    private static final Logger logger = Logger.getLogger(Habitacion.class.getName());
 
     /**
      * Metodo Constructor
      * Aqui se define el como estara el foco inicialmente
      */
     public Habitacion() {
-        this.prendido = true;// new Random().nextInt(101) % 2 == 0;
+        this.prendido = new Random().nextInt(101) % 2 == 0;
     }
 
     /**
@@ -38,14 +42,17 @@ public class Habitacion {
      */
     public Boolean entraHabitacion(Prisionero prisionero) throws InterruptedException {
         // Vocero
-        if (prisionero.esVocero) {
-            if (this.prendido) {// Esta prendido
+        if (Boolean.TRUE.equals(prisionero.esVocero)) {
+            if (Boolean.TRUE.equals(this.prendido)) {// Esta prendido
                 ((Vocero) prisionero).setContador(((Vocero) prisionero).getContador() + 1);
                 this.prendido = false;
-		prisionero.marcado = true;
-                System.out.println("Contador de vocero : " + ((Vocero) prisionero).getContador());
+                prisionero.marcado = true;
+                if (Boolean.TRUE.equals(LOGS)) {
+                    logger.info((char) 27 + "[34m");
+                    logger.info("Contador de vocero : " + ((Vocero) prisionero).getContador());
+                }
                 if (((Vocero) prisionero).getContador().equals((2 * Contante.PRISIONEROS) - 2)) {
-                    System.out.println("\t TODOS HEMOS PASADO");
+                    logger.info("\t \033[31mTODOS HEMOS ENTRADO\033[0m");
                     return false;
                 }
             }
@@ -53,10 +60,14 @@ public class Habitacion {
             if (Boolean.FALSE.equals(this.prendido) && (prisionero.contadorInterno < 2)) {
                 this.prendido = true;
                 prisionero.marcado = true;
-		prisionero.contadorInterno = prisionero.contadorInterno + 1;
+                prisionero.contadorInterno = prisionero.contadorInterno + 1;
             }
         }
-	System.out.format("  %d \t\t %b \t\t %b \t\t %b \n", prisionero.id, prisionero.esVocero, prisionero.marcado, this.prendido);
+        if (Boolean.TRUE.equals(LOGS)) {
+            String cadena = String.format(" %d \t\t %b \t\t %b \t\t %b %n", prisionero.id,
+                    prisionero.esVocero, prisionero.marcado, this.prendido);
+            logger.info(cadena);
+        }
         return true;
     }
 

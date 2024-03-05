@@ -5,31 +5,27 @@ import java.util.List;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Logger;
-
 import kass.concurrente.constantes.Contante;
 import kass.concurrente.modelos.Habitacion;
 import kass.concurrente.modelos.Prisionero;
 import kass.concurrente.modelos.Vocero;
-
 import static kass.concurrente.constantes.Contante.LOGS;
 
 /**
- * Clase principal, se ejecuta todo la simulacion
- * Como en el cuento.
+ * Esta clase principal, se ejecuta todo la simulacion como en el cuento.
  * 
- * @author <Equipo>
+ * @author Monadics
  * @version 1.0
  */
 public class Main implements Runnable {
 
-    Lock lock;
-    static Habitacion habitacion = new Habitacion();
+    protected Lock lock;
+    private static Habitacion habitacion = new Habitacion();
     private Prisionero prisionero;
-    static boolean sigue = true;
+    private static boolean sigue = true;
 
     public Main(Prisionero prisionero) {
         lock = new ReentrantLock();
-        // Agregar lo que haga falta para que funcione
         this.prisionero = prisionero;
     }
 
@@ -50,7 +46,7 @@ public class Main implements Runnable {
         while (sigue) {
             lock.lock();
             try {
-                sigue = habitacion.entraHabitacion(prisionero);
+                seccionCritica(habitacion, prisionero);
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
@@ -59,10 +55,27 @@ public class Main implements Runnable {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
-        final Logger LOG = Logger.getLogger("paquete.NombreClase"); // EJEMPLO LOGGER
+    /**
+     * Entra a la seccion critica
+     * 
+     * @param habitacion Habitacion
+     * @param prisionero Prisionero
+     */
+    public static void seccionCritica(Habitacion habitacion, Prisionero prisionero) {
+        try {
+            sigue = habitacion.entraHabitacion(prisionero);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            sigue = true;
+        }
+    }
 
-        LOG.info("ID \t| Vocero \t| Ya entro\t| interruptor");
+    public static void main(String[] args) throws InterruptedException {
+        final Logger LOG = Logger.getLogger("paquete.NombreClase");
+        if (LOGS) {
+            LOG.info((char) 27 + "[34m");
+            LOG.info("ID \t| Vocero \t| Ya entro\t| interruptor");
+        }
         List<Thread> hilos = new ArrayList<>();
 
         for (int i = 0; i < Contante.PRISIONEROS; i++) {
@@ -80,7 +93,5 @@ public class Main implements Runnable {
             t.join();
         }
 
-        if (LOGS)
-            LOG.info("HOLA SOY UN MENSAJE");
     }
 }
