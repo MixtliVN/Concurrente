@@ -43,17 +43,17 @@ public class Habitacion {
     public Boolean entraHabitacion(Prisionero prisionero) throws InterruptedException {
         // Vocero
         if (Boolean.TRUE.equals(prisionero.esVocero)) {
-            if (Boolean.TRUE.equals(this.prendido)) {// Esta prendido
+            if (((Vocero) prisionero).getContador().equals((2 * Contante.PRISIONEROS) - 2)) {
+                logger.info("\t \033[31mTODOS HEMOS ENTRADO\033[0m");
+                return false;
+            }
+            if (Boolean.TRUE.equals(this.prendido)) {
                 ((Vocero) prisionero).setContador(((Vocero) prisionero).getContador() + 1);
                 this.prendido = false;
                 prisionero.marcado = true;
                 if (Boolean.TRUE.equals(LOGS)) {
                     logger.info((char) 27 + "[34m");
                     logger.info("Contador de vocero : " + ((Vocero) prisionero).getContador());
-                }
-                if (((Vocero) prisionero).getContador().equals((2 * Contante.PRISIONEROS) - 2)) {
-                    logger.info("\t \033[31mTODOS HEMOS ENTRADO\033[0m");
-                    return false;
                 }
             }
         } else {
