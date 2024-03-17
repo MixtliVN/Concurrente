@@ -32,6 +32,14 @@ public class Estacionamiento {
         this.inicializaLugares();
     }
 
+    public Estacionamiento(int capacidad) {
+	int h = capacidad * 2;
+        this.niveles = h;
+        this.capacidad = capacidad;
+        this.lugares = new Lugar[h][capacidad / h];
+        this.inicializaLugares();
+    }
+
     public int getLugaresDisponibles() {
         lugaresDisponibles = 0;
         for (int i = 0; i < this.niveles; i++) {
@@ -110,5 +118,9 @@ public class Estacionamiento {
      */
     public int obtenLugar() {
         return this.r.nextInt(capacidad);
+    }
+
+    public Lugar[] getLugares() {
+	return lugares[0];
     }
 }
