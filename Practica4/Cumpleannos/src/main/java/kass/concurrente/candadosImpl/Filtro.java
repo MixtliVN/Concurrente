@@ -64,11 +64,12 @@ public class Filtro implements Semaphore {
 	    }
 	    */
 	    for (int k = 0; k < nivel.length; k++) {
-                while ((k != id) && (nivel[k] >= i && victima[i] == id) && (permits <= 0)) {
+                while ((k != id) && (nivel[k] >= i && victima[i] == id)) {
                     //spin wait
                 }
             }
 	}
+	while(permits <= 0){};
 	this.permits--;
     }
 
@@ -79,7 +80,7 @@ public class Filtro implements Semaphore {
         //int i = (int) Thread.currentThread().getId();
 	int i = Integer.parseInt(Thread.currentThread().getName());
         nivel[i] = 0;
-	//this.permits++;
+	this.permits++;
     }
     
 }
