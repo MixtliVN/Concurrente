@@ -69,7 +69,7 @@ public class Filtro implements Semaphore {
                 }
             }
 	}
-	this.permits = permits - 1;
+	this.permits--;
     }
 
     @Override
@@ -79,7 +79,7 @@ public class Filtro implements Semaphore {
         //int i = (int) Thread.currentThread().getId();
 	int i = Integer.parseInt(Thread.currentThread().getName());
         nivel[i] = 0;
-	this.permits++;
+	//this.permits++;
     }
     
 }
