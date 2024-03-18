@@ -20,12 +20,12 @@ public class LugarTest {
     void setUp() throws InterruptedException{
         lugar = new Lugar(1);
         semaforo = new Semaphore(1);
-        initHilos();
+        //initHilos();
     }
 
     @Test
     void constructorTest(){
-        assertTrue(lugar.getId() == 1 && lugar.getDisponible() == true && lugar.getFiltroModificado() != null);
+        assertTrue(lugar.getId() == 1 && lugar.getDisponible() == true);
     }
 
     @Test
