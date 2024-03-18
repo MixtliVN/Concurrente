@@ -61,6 +61,20 @@ public class EstacionamientoTest {
         return res;
     }
 
+    @Test
+    void estaLlenoTest() throws InterruptedException{
+        for(int i = 0; i < NUMLUGARES; i++){
+            es.getLugares()[i].estaciona();
+        }
+        assertTrue(es.estaLleno());
+    }
+
+    @Test
+    void NoEstaLlenoTest() throws InterruptedException{
+        assertFalse(es.estaLleno());
+    }
+
+
     /**
      * AGREGA 2 TEST MAS
      * TEST bien hechos
