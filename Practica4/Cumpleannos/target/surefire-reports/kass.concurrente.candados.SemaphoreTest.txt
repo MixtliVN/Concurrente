@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
 Test set: kass.concurrente.candados.SemaphoreTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 49.167 s - in kass.concurrente.candados.SemaphoreTest
-semaforoTest  Time elapsed: 49.097 s
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.719 s - in kass.concurrente.candados.SemaphoreTest
+semaforoTest  Time elapsed: 34.612 s

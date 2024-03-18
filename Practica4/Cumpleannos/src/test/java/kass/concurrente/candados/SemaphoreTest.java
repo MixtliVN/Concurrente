@@ -1,12 +1,9 @@
 package kass.concurrente.candados;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import java.util.concurrent.atomic.AtomicInteger;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import kass.concurrente.candadosImpl.Filtro;
 
 public class SemaphoreTest {
@@ -21,54 +18,55 @@ public class SemaphoreTest {
     AtomicInteger atomicInteger;
 
     @BeforeEach
-    public void setUp(){
+    public void setUp() {
         esCorrecto = true;
         atomicInteger = new AtomicInteger(0);
         initThreads();
     }
 
-    void initFiltroSemaforo(){
+    void initFiltroSemaforo() {
         semaforo = new Filtro(HILOS, MAX_HILOS_CONCURRENTES);
     }
 
-    void initThreads(){
+    void initThreads() {
         hilos = new Thread[HILOS];
-        for(int i = 0; i < HILOS-1; ++i){
-            hilos[i] = new Thread(this::adquiereRondas, String.format("%d",i));
+        for (int i = 0; i < HILOS - 1; ++i) {
+            hilos[i] = new Thread(this::adquiereRondas, String.format("%d", i));
         }
-        hilos[HILOS-1] = new Thread(this::verifica);
+        hilos[HILOS - 1] = new Thread(this::verifica);
     }
 
-    void adquiereRondas(){
+    void adquiereRondas() {
         long valor = 0;
-        for(int i = 0; i < RONDAS; ++i){
+        for (int i = 0; i < RONDAS; ++i) {
             semaforo.acquire();
             this.atomicInteger.incrementAndGet();
-            valor += this.simulaCS(Math.random()*100);
-            if((i % 1000) == 0){
-                this.duermeHilos(Math.random()*10);
+            valor += this.simulaCS(Math.random() * 100);
+            if ((i % 1000) == 0) {
+                this.duermeHilos(Math.random() * 10);
             }
             this.atomicInteger.decrementAndGet();
             semaforo.release();
         }
-         System.out.printf("%s valor alcanzado %d\n", Thread.currentThread().getName(), valor);
+        System.out.printf("%s valor alcanzado %d\n", Thread.currentThread().getName(), valor);
     }
 
-    Integer simulaCS(Double iteraciones){
+    Integer simulaCS(Double iteraciones) {
         int valor = 0;
-        for(int j = 0; j < iteraciones; ++j){
+        for (int j = 0; j < iteraciones; ++j) {
             valor += j & 1;
         }
         return valor;
     }
 
     void verifica() {
-        for(int i = 0; i < (HILOS * RONDAS); i++) {
-            for(int j = 0; j < Math.random() * 100; j++) {
+        for (int i = 0; i < (HILOS * RONDAS); i++) {
+            for (int j = 0; j < Math.random() * 100; j++) {
                 esCorrecto = esCorrecto && (atomicInteger.get() <= MAX_HILOS_CONCURRENTES);
-                if(atomicInteger.get() <= MAX_HILOS_CONCURRENTES) ++aprovacion;
+                if (atomicInteger.get() <= MAX_HILOS_CONCURRENTES)
+                    ++aprovacion;
             }
-            if((i % 6000) == 0) {
+            if ((i % 6000) == 0) {
                 duermeHilos(Math.random() * 50);
             }
         }
@@ -78,7 +76,7 @@ public class SemaphoreTest {
     void duermeHilos(Double aproxMillisec) {
         try {
             Thread.sleep(aproxMillisec.longValue());
-        } catch(InterruptedException ie) {
+        } catch (InterruptedException ie) {
             System.out.printf("%s  - Algo paso D:", Thread.currentThread().getName());
             throw new RuntimeException("D: :'v'.");
         }
@@ -89,14 +87,14 @@ public class SemaphoreTest {
     void semaforoTest() throws InterruptedException {
         initFiltroSemaforo();
 
-        for(Thread t : hilos){
+        for (Thread t : hilos) {
             t.start();
         }
 
-        for(Thread t : hilos){
+        for (Thread t : hilos) {
             t.join();
         }
-        System.out.println("Aprovacion del "+ aprovacion);
+        System.out.println("Aprovacion del " + aprovacion);
         assertTrue(esCorrecto);
     }
 

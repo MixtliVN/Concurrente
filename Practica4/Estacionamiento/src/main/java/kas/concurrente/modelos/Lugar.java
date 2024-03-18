@@ -3,7 +3,6 @@ package kas.concurrente.modelos;
 import java.util.Random;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Logger;
-
 import kas.concurrente.constante.Contante;
 
 /**
@@ -70,39 +69,79 @@ public class Lugar {
      * @throws InterruptedException En caso de que falle
      */
     public void vePorPastel() throws InterruptedException {
-        int retardo = this.r.nextInt(5) + 1;
-        // Thread.sleep(retardo * 1000);
-        Thread.sleep(10);
+        int retardo = this.r.nextInt(10) + 1;
+        Thread.sleep(retardo);
+
     }
 
+    /**
+     * Metodo que nos dice si el lugar esta disponible
+     * 
+     * @return true si esta disponible, false en caso contrario
+     */
     public boolean getDisponible() {
         return this.disponible;
     }
 
+    /**
+     * Metodo que nos regresa el id del lugar
+     * 
+     * @return El id del lugar
+     */
     public Integer getId() {
         return id;
     }
 
+    /**
+     * Metodo que nos regresa el id del lugar
+     * 
+     * @param id El id del lugar
+     */
     public void setId(Integer id) {
         this.id = id;
     }
 
+    /**
+     * Metodo que nos regresa el numero de veces que se ha estacionado
+     * 
+     * @return El numero de veces que se ha estacionado
+     */
     public Integer getVecesEstacionado() {
         return vecesEstacionado;
     }
 
+    /**
+     * Metodo que nos permite asignar el numero de veces que se ha estacionado
+     * 
+     * @param vecesEstacionado El numero de veces que se ha estacionado
+     */
     public void setVecesEstacionado(Integer vecesEstacionado) {
         this.vecesEstacionado = vecesEstacionado;
     }
 
+    /**
+     * Metodo que nos regresa el semaforo
+     * 
+     * @return El semaforo
+     */
     public Semaphore getSemaforo() {
         return semaforo;
     }
 
+    /**
+     * Metodo que nos permite asignar el semaforo
+     * 
+     * @param semaforo El semaforo
+     */
     public void setSemaforo(Semaphore semaforo) {
         this.semaforo = semaforo;
     }
 
+    /**
+     * Metodo que nos permite asignar si el lugar esta disponible
+     * 
+     * @param disponible true si esta disponible, false en caso contrario
+     */
     public void setDisponible(boolean disponible) {
         this.disponible = disponible;
     }
