@@ -21,9 +21,9 @@ public abstract class Inversionista implements Runnable {
     public void run() {
         try {
             while (true) {
-                piensa();
-                entraALaMesa();
-            }
+	    piensa();
+	    entraALaMesa();
+		}
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
@@ -55,7 +55,7 @@ public abstract class Inversionista implements Runnable {
     public void come() throws InterruptedException{
        vecesComido++;
        System.out.println("Inversionista " + id + " esta comiendo...");
-       Thread.sleep(10); 
+       //Thread.sleep(1); 
        
     }
 

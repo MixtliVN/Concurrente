@@ -1,6 +1,8 @@
 package kass.concurrente.invitados;
 
 import kass.concurrente.tenedor.Tenedor;
+import kass.concurrente.candados.Semaphore;
+import kass.concurrente.candadosImpl.Filtro;
 
 /**
  * Clase que modela al inversionista, pero esta vez
@@ -13,6 +15,12 @@ import kass.concurrente.tenedor.Tenedor;
  * @author Kassandra Mirael
  */
 public class InversionistaFiltro extends Inversionista {
+
+    private Semaphore filtro;
+
+    public InversionistaFiltro(Semaphore s){
+	filtro = s;
+    }
 
     @Override
     public void entraALaMesa() throws InterruptedException {
