@@ -1,6 +1,7 @@
 package kass.concurrente.tenedor;
 import kass.concurrente.candados.Lock;
-import kass.concurrente.candadosImpl.PetersonLock;
+import kass.concurrente.candados.Semaphore;
+import kass.concurrente.candadosImpl.Filtro;
 
 /**
  * Clase que implementa el tenedor
@@ -11,29 +12,35 @@ import kass.concurrente.candadosImpl.PetersonLock;
  */
 public class TenedorImpl implements Tenedor {
 
-    private volatile int id;
-    private volatile int tt;
-    private Lock lock;
+    private int id;
+    private int tt;
+    private Semaphore mutex;
 
     public TenedorImpl(int id){
 	this.id = id;
 	tt = 0;
-	lock = new PetersonLock();
+	mutex = new Filtro(2, 1);
     }
 
     @Override
     public void tomar() {
         // TODO Auto-generated method stub
         //throw new UnsupportedOperationException("Unimplemented method 'tomar'");
-	lock.lock();
-	tt++;
+	try {  
+	    //acquires a permit from the semaphore  
+	    mutex.acquire();
+	    tt++;
+	}  
+	catch (Exception e){  
+	    e.printStackTrace(System.out);  
+	}
     }
 
     @Override
     public void soltar() {
         // TODO Auto-generated method stub
         //throw new UnsupportedOperationException("Unimplemented method 'soltar'");
-	lock.unlock();
+        mutex.release();
     }
 
     @Override
