@@ -1,6 +1,7 @@
 package kass.concurrente.candadosImpl;
 
 import kass.concurrente.candados.Semaphore;
+import java.util.HashMap;
 
 /**
  * Clase que modela el Algoritmo del Filtro Modificado
@@ -14,6 +15,8 @@ public class Filtro implements Semaphore {
 
     private volatile int[] nivel; 
     private volatile int[] victima;
+    //private volatile HashMap<Integer, Integer> nivelHs;
+    //private volatile HashMap<Integer, Integer> victimaHs;
     private volatile int max;
     private volatile int permits;
 
@@ -31,6 +34,7 @@ public class Filtro implements Semaphore {
 	this.max = maxHilosConcurrentes;
 	this.permits = maxHilosConcurrentes;
 	for (int i = 0; i < hilos; i++){
+	    //nivelHs.put();
 	    nivel[i] = 0;
 	}
     }
@@ -48,6 +52,7 @@ public class Filtro implements Semaphore {
         //throw new UnsupportedOperationException("Unimplemented method 'acquire'");
 	//int id = (int) Thread.currentThread().getId();
 	int id = Integer.parseInt(Thread.currentThread().getName());
+	id = id % this.nivel.length;
 	for(int i = 1; i < this.nivel.length; i++){
 	    nivel[id] = i;
 	    victima[i] = id;
@@ -79,6 +84,7 @@ public class Filtro implements Semaphore {
         //throw new UnsupportedOperationException("Unimplemented method 'release'");
         //int i = (int) Thread.currentThread().getId();
 	int i = Integer.parseInt(Thread.currentThread().getName());
+	i = i % this.nivel.length;
         nivel[i] = 0;
 	this.permits++;
     }
