@@ -27,7 +27,7 @@ public class Main implements Runnable{
      */
     public Main(){
         this.semaforo = new Semaphore(Contante.NUM_CARROS-2);
-        this.estacionamiento = new Estacionamiento(Contante.NUM_CARROS, Contante.NIVELES);
+        this.estacionamiento = new Estacionamiento(Contante.NUM_CARROS);
     }
 
     /**
