@@ -27,16 +27,17 @@ public class Estacionamiento {
     public Estacionamiento(int capacidad) {
         this.capacidad = capacidad;
         this.lugares = new Lugar[capacidad];
+        this.lugaresDisponibles = 0;
         this.inicializaLugares();
     }
 
     public int getLugaresDisponibles() {
         lugaresDisponibles = 0;
         for (Lugar l : this.lugares) {
-	    if (l.getDisponible()) {
-		lugaresDisponibles++;
-	    }
-	}
+            if (l.getDisponible()) {
+                lugaresDisponibles++;
+            }
+        }
         return lugaresDisponibles;
     }
 
@@ -50,11 +51,11 @@ public class Estacionamiento {
      * @return true si esta lleno, false en otro caso
      */
     public boolean estaLleno() {
-	for (Lugar l : this.lugares) {
-	    if (l.getDisponible()) {
-		return false;
-	    }
-	}
+        for (Lugar l : this.lugares) {
+            if (l.getDisponible()) {
+                return false;
+            }
+        }
         return true;
     }
 
@@ -64,7 +65,7 @@ public class Estacionamiento {
      */
     public void inicializaLugares() {
         for (int i = 0; i < this.capacidad; i++) {
-	    this.lugares[i] = new Lugar(i);
+            this.lugares[i] = new Lugar(i);
         }
     }
 
@@ -76,7 +77,9 @@ public class Estacionamiento {
      * @throws InterruptedException Si llega a fallar
      */
     public void entraCarro(int nombre) throws InterruptedException {
-       // System.out.format("Entro el carro %d al estacionamiento\n", nombre);
+        // System.out.format("Entro el carro %d al estacionamiento\n", nombre);
+        int lugar = obtenLugar();
+        asignaLugar(lugar);
     }
 
     /**
@@ -98,10 +101,11 @@ public class Estacionamiento {
      * @return Retorna el indice del lugar
      */
     public int obtenLugar() {
-        return this.r.nextInt(capacidad);
+        int lugar = this.r.nextInt(capacidad);
+        return (this.lugares[lugar].getDisponible())? lugar : obtenLugar(); 
     }
 
     public Lugar[] getLugares() {
-	return lugares;
+        return lugares;
     }
 }
