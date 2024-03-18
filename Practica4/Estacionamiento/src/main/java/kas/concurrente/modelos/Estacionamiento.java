@@ -13,9 +13,8 @@ import java.util.Random;
  */
 public class Estacionamiento {
 
-    private Lugar lugares[][];
+    private Lugar lugares[];
     private int capacidad;
-    private int niveles;
     private int lugaresDisponibles;
     private Random r = new Random(System.currentTimeMillis());
 
@@ -25,30 +24,19 @@ public class Estacionamiento {
      * 
      * @param capacidad La capacidad del estacionamiento
      */
-    public Estacionamiento(int capacidad, int h) {
-        this.niveles = h;
-        this.capacidad = capacidad;
-        this.lugares = new Lugar[h][capacidad / h];
-        this.inicializaLugares();
-    }
-
     public Estacionamiento(int capacidad) {
-	int h = capacidad * 2;
-        this.niveles = h;
         this.capacidad = capacidad;
-        this.lugares = new Lugar[h][capacidad / h];
+        this.lugares = new Lugar[capacidad];
         this.inicializaLugares();
     }
 
     public int getLugaresDisponibles() {
         lugaresDisponibles = 0;
-        for (int i = 0; i < this.niveles; i++) {
-            for (Lugar l : this.lugares[i]) {
-                if (l.getDisponible()) {
-                    lugaresDisponibles++;
-                }
-            }
-        }
+        for (Lugar l : this.lugares) {
+	    if (l.getDisponible()) {
+		lugaresDisponibles++;
+	    }
+	}
         return lugaresDisponibles;
     }
 
@@ -62,13 +50,11 @@ public class Estacionamiento {
      * @return true si esta lleno, false en otro caso
      */
     public boolean estaLleno() {
-        for (int i = 0; i < this.niveles; i++) {
-            for (Lugar l : this.lugares[i]) {
-                if (l.getDisponible()) {
-                    return false;
-                }
-            }
-        }
+	for (Lugar l : this.lugares) {
+	    if (l.getDisponible()) {
+		return false;
+	    }
+	}
         return true;
     }
 
@@ -77,11 +63,8 @@ public class Estacionamiento {
      * Este es un método optativo
      */
     public void inicializaLugares() {
-        int contador = 0;
-        for (int i = 0; i < this.niveles; i++) {
-            for (int j = 0; j< this.capacidad/this.niveles; j++) {
-                this.lugares[i][j] = new Lugar(contador++);
-            }
+        for (int i = 0; i < this.capacidad; i++) {
+	    this.lugares[i] = new Lugar(i);
         }
     }
 
@@ -103,10 +86,8 @@ public class Estacionamiento {
      * @throws InterruptedException
      */
     public void asignaLugar(int lugar) throws InterruptedException {
-        int porPiso = this.capacidad / this.niveles;
-        int i = lugar/porPiso;
-        int j = lugar % porPiso;
-        this.lugares[i][j].estaciona();
+        int i = lugar;
+        this.lugares[i].estaciona();
     }
 
     /**
@@ -121,6 +102,6 @@ public class Estacionamiento {
     }
 
     public Lugar[] getLugares() {
-	return lugares[0];
+	return lugares;
     }
 }
