@@ -64,11 +64,9 @@ public class EstacionamientoTest {
     }
 
     @Test
-    void estaLlenoTest() throws InterruptedException{
-        for(int i = 0; i < NUMLUGARES; i++){
-            es.getLugares()[i].estaciona();
-        }
-        assertTrue(es.estaLleno());
+    void ObtenLugarTest() throws InterruptedException{
+	int i = es.obtenLugar();
+        assertTrue(es.getLugares()[i].getDisponible());
     }
 
     @Test
