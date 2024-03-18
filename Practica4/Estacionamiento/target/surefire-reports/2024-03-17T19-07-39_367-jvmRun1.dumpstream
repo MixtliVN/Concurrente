@@ -1,0 +1,4188 @@
+# Created at 2024-03-17T19:07:42.985
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+# Created at 2024-03-17T19:07:43.591
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.623
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 12 
+
+
+
+# Created at 2024-03-17T19:07:43.623
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.623
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 13 
+
+
+
+# Created at 2024-03-17T19:07:43.638
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.638
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 13 
+
+
+
+# Created at 2024-03-17T19:07:43.638
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.638
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 14 
+
+
+
+# Created at 2024-03-17T19:07:43.664
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.665
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 14 
+
+
+
+# Created at 2024-03-17T19:07:43.668
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.670
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 15 
+
+
+
+# Created at 2024-03-17T19:07:43.686
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.689
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 15 
+
+
+
+# Created at 2024-03-17T19:07:43.689
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.694
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 16 
+
+
+
+# Created at 2024-03-17T19:07:43.706
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.706
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 16 
+
+
+
+# Created at 2024-03-17T19:07:43.706
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.706
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 17 
+
+
+
+# Created at 2024-03-17T19:07:43.728
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.728
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 17 
+
+
+
+# Created at 2024-03-17T19:07:43.728
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.735
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 18 
+
+
+
+# Created at 2024-03-17T19:07:43.764
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.764
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 18 
+
+
+
+# Created at 2024-03-17T19:07:43.768
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.771
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 19 
+
+
+
+# Created at 2024-03-17T19:07:43.795
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.795
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 19 
+
+
+
+# Created at 2024-03-17T19:07:43.795
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.808
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 20 
+
+
+
+# Created at 2024-03-17T19:07:43.823
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.825
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 20 
+
+
+
+# Created at 2024-03-17T19:07:43.827
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.829
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 21 
+
+
+
+# Created at 2024-03-17T19:07:43.847
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.847
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 21 
+
+
+
+# Created at 2024-03-17T19:07:43.847
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.847
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 22 
+
+
+
+# Created at 2024-03-17T19:07:43.869
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.869
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 22 
+
+
+
+# Created at 2024-03-17T19:07:43.869
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.869
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 23 
+
+
+
+# Created at 2024-03-17T19:07:43.889
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.889
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 23 
+
+
+
+# Created at 2024-03-17T19:07:43.889
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.889
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 24 
+
+
+
+# Created at 2024-03-17T19:07:43.908
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.908
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 24 
+
+
+
+# Created at 2024-03-17T19:07:43.908
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.908
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 25 
+
+
+
+# Created at 2024-03-17T19:07:43.928
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.928
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 25 
+
+
+
+# Created at 2024-03-17T19:07:43.928
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.935
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 26 
+
+
+
+# Created at 2024-03-17T19:07:43.951
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.951
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 26 
+
+
+
+# Created at 2024-03-17T19:07:43.951
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.956
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 27 
+
+
+
+# Created at 2024-03-17T19:07:43.982
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.984
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 27 
+
+
+
+# Created at 2024-03-17T19:07:43.989
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:43.999
+Unexpected IOException with stream: Mar 17, 2024 7:07:43 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 28 
+
+
+
+# Created at 2024-03-17T19:07:44.023
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.023
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 28 
+
+
+
+# Created at 2024-03-17T19:07:44.023
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.039
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 29 
+
+
+
+# Created at 2024-03-17T19:07:44.058
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.058
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 29 
+
+
+
+# Created at 2024-03-17T19:07:44.058
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.058
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 30 
+
+
+
+# Created at 2024-03-17T19:07:44.083
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.083
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 30 
+
+
+
+# Created at 2024-03-17T19:07:44.090
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.090
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 31 
+
+
+
+# Created at 2024-03-17T19:07:44.106
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.106
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 31 
+
+
+
+# Created at 2024-03-17T19:07:44.106
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.106
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 32 
+
+
+
+# Created at 2024-03-17T19:07:44.128
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.128
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 32 
+
+
+
+# Created at 2024-03-17T19:07:44.131
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.131
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 33 
+
+
+
+# Created at 2024-03-17T19:07:44.149
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.149
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 33 
+
+
+
+# Created at 2024-03-17T19:07:44.149
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.149
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 34 
+
+
+
+# Created at 2024-03-17T19:07:44.173
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.173
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 34 
+
+
+
+# Created at 2024-03-17T19:07:44.173
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.173
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 35 
+
+
+
+# Created at 2024-03-17T19:07:44.191
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.191
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 35 
+
+
+
+# Created at 2024-03-17T19:07:44.191
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.191
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 36 
+
+
+
+# Created at 2024-03-17T19:07:44.213
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.213
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 36 
+
+
+
+# Created at 2024-03-17T19:07:44.213
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.213
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 37 
+
+
+
+# Created at 2024-03-17T19:07:44.243
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.243
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 37 
+
+
+
+# Created at 2024-03-17T19:07:44.243
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.243
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 38 
+
+
+
+# Created at 2024-03-17T19:07:44.267
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.267
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 38 
+
+
+
+# Created at 2024-03-17T19:07:44.267
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.267
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 39 
+
+
+
+# Created at 2024-03-17T19:07:44.286
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.286
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 39 
+
+
+
+# Created at 2024-03-17T19:07:44.286
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.286
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 40 
+
+
+
+# Created at 2024-03-17T19:07:44.319
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.321
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 40 
+
+
+
+# Created at 2024-03-17T19:07:44.323
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.324
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 41 
+
+
+
+# Created at 2024-03-17T19:07:44.343
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.343
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 41 
+
+
+
+# Created at 2024-03-17T19:07:44.343
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.343
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 42 
+
+
+
+# Created at 2024-03-17T19:07:44.361
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.361
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 42 
+
+
+
+# Created at 2024-03-17T19:07:44.361
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.361
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 43 
+
+
+
+# Created at 2024-03-17T19:07:44.379
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.379
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 43 
+
+
+
+# Created at 2024-03-17T19:07:44.379
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.379
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 44 
+
+
+
+# Created at 2024-03-17T19:07:44.397
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.397
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 44 
+
+
+
+# Created at 2024-03-17T19:07:44.397
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.397
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 45 
+
+
+
+# Created at 2024-03-17T19:07:44.414
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.414
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 45 
+
+
+
+# Created at 2024-03-17T19:07:44.414
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.414
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 46 
+
+
+
+# Created at 2024-03-17T19:07:44.434
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.434
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 46 
+
+
+
+# Created at 2024-03-17T19:07:44.434
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.440
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 47 
+
+
+
+# Created at 2024-03-17T19:07:44.456
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.456
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 47 
+
+
+
+# Created at 2024-03-17T19:07:44.456
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.456
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 48 
+
+
+
+# Created at 2024-03-17T19:07:44.475
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.475
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 48 
+
+
+
+# Created at 2024-03-17T19:07:44.475
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.475
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 49 
+
+
+
+# Created at 2024-03-17T19:07:44.500
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.500
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 49 
+
+
+
+# Created at 2024-03-17T19:07:44.500
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.500
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 50 
+
+
+
+# Created at 2024-03-17T19:07:44.517
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.517
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 50 
+
+
+
+# Created at 2024-03-17T19:07:44.517
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.517
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 51 
+
+
+
+# Created at 2024-03-17T19:07:44.535
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.535
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 51 
+
+
+
+# Created at 2024-03-17T19:07:44.535
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.535
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 52 
+
+
+
+# Created at 2024-03-17T19:07:44.553
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.553
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 52 
+
+
+
+# Created at 2024-03-17T19:07:44.553
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.553
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 53 
+
+
+
+# Created at 2024-03-17T19:07:44.570
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.570
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 53 
+
+
+
+# Created at 2024-03-17T19:07:44.570
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.570
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 54 
+
+
+
+# Created at 2024-03-17T19:07:44.587
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.587
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 54 
+
+
+
+# Created at 2024-03-17T19:07:44.587
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.587
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 55 
+
+
+
+# Created at 2024-03-17T19:07:44.605
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.605
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 55 
+
+
+
+# Created at 2024-03-17T19:07:44.605
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.605
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 56 
+
+
+
+# Created at 2024-03-17T19:07:44.622
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.622
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 56 
+
+
+
+# Created at 2024-03-17T19:07:44.622
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.622
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 57 
+
+
+
+# Created at 2024-03-17T19:07:44.639
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.639
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 57 
+
+
+
+# Created at 2024-03-17T19:07:44.639
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.639
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 58 
+
+
+
+# Created at 2024-03-17T19:07:44.658
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.659
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 58 
+
+
+
+# Created at 2024-03-17T19:07:44.660
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.660
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 59 
+
+
+
+# Created at 2024-03-17T19:07:44.682
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.682
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 59 
+
+
+
+# Created at 2024-03-17T19:07:44.682
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.682
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 60 
+
+
+
+# Created at 2024-03-17T19:07:44.700
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.700
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 60 
+
+
+
+# Created at 2024-03-17T19:07:44.700
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.700
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 61 
+
+
+
+# Created at 2024-03-17T19:07:44.724
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.724
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 61 
+
+
+
+# Created at 2024-03-17T19:07:44.724
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.732
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 62 
+
+
+
+# Created at 2024-03-17T19:07:44.765
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.765
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 62 
+
+
+
+# Created at 2024-03-17T19:07:44.765
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.806
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 63 
+
+
+
+# Created at 2024-03-17T19:07:44.847
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.855
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 63 
+
+
+
+# Created at 2024-03-17T19:07:44.855
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.855
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 64 
+
+
+
+# Created at 2024-03-17T19:07:44.895
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.895
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 64 
+
+
+
+# Created at 2024-03-17T19:07:44.907
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.907
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 65 
+
+
+
+# Created at 2024-03-17T19:07:44.922
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.922
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 65 
+
+
+
+# Created at 2024-03-17T19:07:44.922
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.922
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 66 
+
+
+
+# Created at 2024-03-17T19:07:44.939
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.939
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 66 
+
+
+
+# Created at 2024-03-17T19:07:44.939
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.939
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 67 
+
+
+
+# Created at 2024-03-17T19:07:44.957
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.957
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 67 
+
+
+
+# Created at 2024-03-17T19:07:44.957
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.957
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 68 
+
+
+
+# Created at 2024-03-17T19:07:44.981
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.981
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 68 
+
+
+
+# Created at 2024-03-17T19:07:44.981
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:44.981
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 69 
+
+
+
+# Created at 2024-03-17T19:07:45.000
+Unexpected IOException with stream: Mar 17, 2024 7:07:44 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.000
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 69 
+
+
+
+# Created at 2024-03-17T19:07:45.000
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.000
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 70 
+
+
+
+# Created at 2024-03-17T19:07:45.022
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.022
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 70 
+
+
+
+# Created at 2024-03-17T19:07:45.026
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.026
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 71 
+
+
+
+# Created at 2024-03-17T19:07:45.055
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.055
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 71 
+
+
+
+# Created at 2024-03-17T19:07:45.055
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.055
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 72 
+
+
+
+# Created at 2024-03-17T19:07:45.079
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.079
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 72 
+
+
+
+# Created at 2024-03-17T19:07:45.079
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.087
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 73 
+
+
+
+# Created at 2024-03-17T19:07:45.103
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.103
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 73 
+
+
+
+# Created at 2024-03-17T19:07:45.103
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.103
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 74 
+
+
+
+# Created at 2024-03-17T19:07:45.121
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.121
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 74 
+
+
+
+# Created at 2024-03-17T19:07:45.121
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.121
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 75 
+
+
+
+# Created at 2024-03-17T19:07:45.139
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.139
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 75 
+
+
+
+# Created at 2024-03-17T19:07:45.139
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.139
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 76 
+
+
+
+# Created at 2024-03-17T19:07:45.163
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.163
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 76 
+
+
+
+# Created at 2024-03-17T19:07:45.177
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.179
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 77 
+
+
+
+# Created at 2024-03-17T19:07:45.194
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.198
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 77 
+
+
+
+# Created at 2024-03-17T19:07:45.200
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.203
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 78 
+
+
+
+# Created at 2024-03-17T19:07:45.219
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.219
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 78 
+
+
+
+# Created at 2024-03-17T19:07:45.219
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.219
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 79 
+
+
+
+# Created at 2024-03-17T19:07:45.238
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.238
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 79 
+
+
+
+# Created at 2024-03-17T19:07:45.245
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.248
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 80 
+
+
+
+# Created at 2024-03-17T19:07:45.299
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.316
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 80 
+
+
+
+# Created at 2024-03-17T19:07:45.323
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.323
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 81 
+
+
+
+# Created at 2024-03-17T19:07:45.371
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.371
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 81 
+
+
+
+# Created at 2024-03-17T19:07:45.371
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.371
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 82 
+
+
+
+# Created at 2024-03-17T19:07:45.390
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.390
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 82 
+
+
+
+# Created at 2024-03-17T19:07:45.390
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.390
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 83 
+
+
+
+# Created at 2024-03-17T19:07:45.408
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.408
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 83 
+
+
+
+# Created at 2024-03-17T19:07:45.408
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.408
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 84 
+
+
+
+# Created at 2024-03-17T19:07:45.465
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.465
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 84 
+
+
+
+# Created at 2024-03-17T19:07:45.465
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.472
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 85 
+
+
+
+# Created at 2024-03-17T19:07:45.488
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.488
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 85 
+
+
+
+# Created at 2024-03-17T19:07:45.496
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.499
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 86 
+
+
+
+# Created at 2024-03-17T19:07:45.516
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.516
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 86 
+
+
+
+# Created at 2024-03-17T19:07:45.516
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.516
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 87 
+
+
+
+# Created at 2024-03-17T19:07:45.535
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.535
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 87 
+
+
+
+# Created at 2024-03-17T19:07:45.535
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.535
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 88 
+
+
+
+# Created at 2024-03-17T19:07:45.555
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.556
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 88 
+
+
+
+# Created at 2024-03-17T19:07:45.556
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.556
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 89 
+
+
+
+# Created at 2024-03-17T19:07:45.575
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.575
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 89 
+
+
+
+# Created at 2024-03-17T19:07:45.575
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.584
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 90 
+
+
+
+# Created at 2024-03-17T19:07:45.615
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.615
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 90 
+
+
+
+# Created at 2024-03-17T19:07:45.615
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.615
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 91 
+
+
+
+# Created at 2024-03-17T19:07:45.633
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.633
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 91 
+
+
+
+# Created at 2024-03-17T19:07:45.633
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.633
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 92 
+
+
+
+# Created at 2024-03-17T19:07:45.651
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.651
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 92 
+
+
+
+# Created at 2024-03-17T19:07:45.651
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.651
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 93 
+
+
+
+# Created at 2024-03-17T19:07:45.667
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.667
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 93 
+
+
+
+# Created at 2024-03-17T19:07:45.667
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.667
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 94 
+
+
+
+# Created at 2024-03-17T19:07:45.684
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.684
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 94 
+
+
+
+# Created at 2024-03-17T19:07:45.684
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.684
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 95 
+
+
+
+# Created at 2024-03-17T19:07:45.700
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.700
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 95 
+
+
+
+# Created at 2024-03-17T19:07:45.700
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.700
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 96 
+
+
+
+# Created at 2024-03-17T19:07:45.717
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.717
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 96 
+
+
+
+# Created at 2024-03-17T19:07:45.717
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.717
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 97 
+
+
+
+# Created at 2024-03-17T19:07:45.733
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.733
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 97 
+
+
+
+# Created at 2024-03-17T19:07:45.733
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.733
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 98 
+
+
+
+# Created at 2024-03-17T19:07:45.750
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.750
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 98 
+
+
+
+# Created at 2024-03-17T19:07:45.750
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.750
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 99 
+
+
+
+# Created at 2024-03-17T19:07:45.766
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.766
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 99 
+
+
+
+# Created at 2024-03-17T19:07:45.766
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.766
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 100 
+
+
+
+# Created at 2024-03-17T19:07:45.784
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.784
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 100 
+
+
+
+# Created at 2024-03-17T19:07:45.784
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.784
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 101 
+
+
+
+# Created at 2024-03-17T19:07:45.801
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.801
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 101 
+
+
+
+# Created at 2024-03-17T19:07:45.801
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.801
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 102 
+
+
+
+# Created at 2024-03-17T19:07:45.817
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.817
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 102 
+
+
+
+# Created at 2024-03-17T19:07:45.817
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.817
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 103 
+
+
+
+# Created at 2024-03-17T19:07:45.841
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.841
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 103 
+
+
+
+# Created at 2024-03-17T19:07:45.841
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.841
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 104 
+
+
+
+# Created at 2024-03-17T19:07:45.859
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.859
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 104 
+
+
+
+# Created at 2024-03-17T19:07:45.859
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.859
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 105 
+
+
+
+# Created at 2024-03-17T19:07:45.874
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.874
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 105 
+
+
+
+# Created at 2024-03-17T19:07:45.874
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.874
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 106 
+
+
+
+# Created at 2024-03-17T19:07:45.891
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.891
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 106 
+
+
+
+# Created at 2024-03-17T19:07:45.891
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.891
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 107 
+
+
+
+# Created at 2024-03-17T19:07:45.909
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.909
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 107 
+
+
+
+# Created at 2024-03-17T19:07:45.909
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.909
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 108 
+
+
+
+# Created at 2024-03-17T19:07:45.925
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.925
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 108 
+
+
+
+# Created at 2024-03-17T19:07:45.925
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.925
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 109 
+
+
+
+# Created at 2024-03-17T19:07:45.942
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.943
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 109 
+
+
+
+# Created at 2024-03-17T19:07:45.944
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.945
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 110 
+
+
+
+# Created at 2024-03-17T19:07:45.957
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.957
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 110 
+
+
+
+# Created at 2024-03-17T19:07:45.957
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.957
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 111 
+
+
+
+# Created at 2024-03-17T19:07:45.974
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.977
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 111 
+
+
+
+# Created at 2024-03-17T19:07:45.977
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:45.977
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 112 
+
+
+
+# Created at 2024-03-17T19:07:45.995
+Unexpected IOException with stream: Mar 17, 2024 7:07:45 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.006
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 112 
+
+
+
+# Created at 2024-03-17T19:07:46.006
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.011
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 113 
+
+
+
+# Created at 2024-03-17T19:07:46.026
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.026
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 113 
+
+
+
+# Created at 2024-03-17T19:07:46.034
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.036
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 114 
+
+
+
+# Created at 2024-03-17T19:07:46.050
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.050
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 114 
+
+
+
+# Created at 2024-03-17T19:07:46.050
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.050
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 115 
+
+
+
+# Created at 2024-03-17T19:07:46.066
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.068
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 115 
+
+
+
+# Created at 2024-03-17T19:07:46.068
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.068
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 116 
+
+
+
+# Created at 2024-03-17T19:07:46.084
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.084
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 116 
+
+
+
+# Created at 2024-03-17T19:07:46.084
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.084
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 117 
+
+
+
+# Created at 2024-03-17T19:07:46.108
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.108
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 117 
+
+
+
+# Created at 2024-03-17T19:07:46.108
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.108
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 118 
+
+
+
+# Created at 2024-03-17T19:07:46.125
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.125
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 118 
+
+
+
+# Created at 2024-03-17T19:07:46.125
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.125
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 119 
+
+
+
+# Created at 2024-03-17T19:07:46.141
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.141
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 119 
+
+
+
+# Created at 2024-03-17T19:07:46.141
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.141
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 120 
+
+
+
+# Created at 2024-03-17T19:07:46.156
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.156
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 120 
+
+
+
+# Created at 2024-03-17T19:07:46.156
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.156
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 121 
+
+
+
+# Created at 2024-03-17T19:07:46.173
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.174
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 121 
+
+
+
+# Created at 2024-03-17T19:07:46.174
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.174
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 122 
+
+
+
+# Created at 2024-03-17T19:07:46.190
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.190
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 122 
+
+
+
+# Created at 2024-03-17T19:07:46.190
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.190
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 123 
+
+
+
+# Created at 2024-03-17T19:07:46.206
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.206
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 123 
+
+
+
+# Created at 2024-03-17T19:07:46.206
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.206
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 124 
+
+
+
+# Created at 2024-03-17T19:07:46.222
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.222
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 124 
+
+
+
+# Created at 2024-03-17T19:07:46.222
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.222
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 125 
+
+
+
+# Created at 2024-03-17T19:07:46.238
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.238
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 125 
+
+
+
+# Created at 2024-03-17T19:07:46.238
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.238
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 126 
+
+
+
+# Created at 2024-03-17T19:07:46.257
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.257
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 126 
+
+
+
+# Created at 2024-03-17T19:07:46.257
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.257
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 127 
+
+
+
+# Created at 2024-03-17T19:07:46.272
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.272
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 127 
+
+
+
+# Created at 2024-03-17T19:07:46.272
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.272
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 128 
+
+
+
+# Created at 2024-03-17T19:07:46.288
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.288
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 128 
+
+
+
+# Created at 2024-03-17T19:07:46.288
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.288
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 129 
+
+
+
+# Created at 2024-03-17T19:07:46.304
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.304
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 129 
+
+
+
+# Created at 2024-03-17T19:07:46.304
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.304
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 130 
+
+
+
+# Created at 2024-03-17T19:07:46.320
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.320
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 130 
+
+
+
+# Created at 2024-03-17T19:07:46.320
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.320
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 131 
+
+
+
+# Created at 2024-03-17T19:07:46.345
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.348
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 131 
+
+
+
+# Created at 2024-03-17T19:07:46.349
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.349
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 132 
+
+
+
+# Created at 2024-03-17T19:07:46.365
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.365
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 132 
+
+
+
+# Created at 2024-03-17T19:07:46.365
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.370
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 133 
+
+
+
+# Created at 2024-03-17T19:07:46.397
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.399
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 133 
+
+
+
+# Created at 2024-03-17T19:07:46.399
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.404
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 134 
+
+
+
+# Created at 2024-03-17T19:07:46.426
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.428
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 134 
+
+
+
+# Created at 2024-03-17T19:07:46.431
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.434
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 135 
+
+
+
+# Created at 2024-03-17T19:07:46.449
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.450
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 135 
+
+
+
+# Created at 2024-03-17T19:07:46.450
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.453
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 136 
+
+
+
+# Created at 2024-03-17T19:07:46.467
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.467
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 136 
+
+
+
+# Created at 2024-03-17T19:07:46.467
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.467
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 137 
+
+
+
+# Created at 2024-03-17T19:07:46.482
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.482
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 137 
+
+
+
+# Created at 2024-03-17T19:07:46.482
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.482
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 138 
+
+
+
+# Created at 2024-03-17T19:07:46.500
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.500
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 138 
+
+
+
+# Created at 2024-03-17T19:07:46.500
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.500
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 139 
+
+
+
+# Created at 2024-03-17T19:07:46.516
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.516
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 139 
+
+
+
+# Created at 2024-03-17T19:07:46.524
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.524
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 140 
+
+
+
+# Created at 2024-03-17T19:07:46.540
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.540
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 140 
+
+
+
+# Created at 2024-03-17T19:07:46.540
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.540
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 141 
+
+
+
+# Created at 2024-03-17T19:07:46.565
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.565
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 141 
+
+
+
+# Created at 2024-03-17T19:07:46.565
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.565
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 142 
+
+
+
+# Created at 2024-03-17T19:07:46.581
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.581
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 142 
+
+
+
+# Created at 2024-03-17T19:07:46.581
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.581
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 143 
+
+
+
+# Created at 2024-03-17T19:07:46.606
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.606
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 143 
+
+
+
+# Created at 2024-03-17T19:07:46.606
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.606
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 144 
+
+
+
+# Created at 2024-03-17T19:07:46.623
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.623
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 144 
+
+
+
+# Created at 2024-03-17T19:07:46.623
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.623
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 145 
+
+
+
+# Created at 2024-03-17T19:07:46.641
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.641
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 145 
+
+
+
+# Created at 2024-03-17T19:07:46.641
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.641
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 146 
+
+
+
+# Created at 2024-03-17T19:07:46.657
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.657
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 146 
+
+
+
+# Created at 2024-03-17T19:07:46.657
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.657
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 147 
+
+
+
+# Created at 2024-03-17T19:07:46.679
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.682
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 147 
+
+
+
+# Created at 2024-03-17T19:07:46.682
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.682
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 148 
+
+
+
+# Created at 2024-03-17T19:07:46.698
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.698
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 148 
+
+
+
+# Created at 2024-03-17T19:07:46.702
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.702
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 149 
+
+
+
+# Created at 2024-03-17T19:07:46.729
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.732
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 149 
+
+
+
+# Created at 2024-03-17T19:07:46.733
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.735
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 150 
+
+
+
+# Created at 2024-03-17T19:07:46.752
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.752
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 150 
+
+
+
+# Created at 2024-03-17T19:07:46.752
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.752
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 151 
+
+
+
+# Created at 2024-03-17T19:07:46.770
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.770
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 151 
+
+
+
+# Created at 2024-03-17T19:07:46.770
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.770
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 152 
+
+
+
+# Created at 2024-03-17T19:07:46.787
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.789
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 152 
+
+
+
+# Created at 2024-03-17T19:07:46.791
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.793
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 153 
+
+
+
+# Created at 2024-03-17T19:07:46.814
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.814
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 153 
+
+
+
+# Created at 2024-03-17T19:07:46.814
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.814
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 154 
+
+
+
+# Created at 2024-03-17T19:07:46.829
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.829
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 154 
+
+
+
+# Created at 2024-03-17T19:07:46.829
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.829
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 155 
+
+
+
+# Created at 2024-03-17T19:07:46.854
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.854
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 155 
+
+
+
+# Created at 2024-03-17T19:07:46.854
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.854
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 156 
+
+
+
+# Created at 2024-03-17T19:07:46.880
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.880
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 156 
+
+
+
+# Created at 2024-03-17T19:07:46.880
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.880
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 157 
+
+
+
+# Created at 2024-03-17T19:07:46.896
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.899
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 157 
+
+
+
+# Created at 2024-03-17T19:07:46.899
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.899
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 158 
+
+
+
+# Created at 2024-03-17T19:07:46.913
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.913
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 158 
+
+
+
+# Created at 2024-03-17T19:07:46.913
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.913
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 159 
+
+
+
+# Created at 2024-03-17T19:07:46.932
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.938
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 159 
+
+
+
+# Created at 2024-03-17T19:07:46.940
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.942
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 160 
+
+
+
+# Created at 2024-03-17T19:07:46.965
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.965
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 160 
+
+
+
+# Created at 2024-03-17T19:07:46.965
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.971
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 161 
+
+
+
+# Created at 2024-03-17T19:07:46.999
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:46.999
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 161 
+
+
+
+# Created at 2024-03-17T19:07:46.999
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.005
+Unexpected IOException with stream: Mar 17, 2024 7:07:46 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 162 
+
+
+
+# Created at 2024-03-17T19:07:47.027
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.027
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 162 
+
+
+
+# Created at 2024-03-17T19:07:47.031
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.031
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 163 
+
+
+
+# Created at 2024-03-17T19:07:47.048
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.048
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 163 
+
+
+
+# Created at 2024-03-17T19:07:47.048
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.048
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 164 
+
+
+
+# Created at 2024-03-17T19:07:47.065
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.069
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 164 
+
+
+
+# Created at 2024-03-17T19:07:47.069
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.069
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 165 
+
+
+
+# Created at 2024-03-17T19:07:47.084
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.084
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 165 
+
+
+
+# Created at 2024-03-17T19:07:47.084
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.084
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 166 
+
+
+
+# Created at 2024-03-17T19:07:47.108
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.108
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 166 
+
+
+
+# Created at 2024-03-17T19:07:47.108
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.114
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 167 
+
+
+
+# Created at 2024-03-17T19:07:47.128
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.131
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 167 
+
+
+
+# Created at 2024-03-17T19:07:47.131
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.133
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 168 
+
+
+
+# Created at 2024-03-17T19:07:47.146
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.148
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 168 
+
+
+
+# Created at 2024-03-17T19:07:47.148
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.152
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 169 
+
+
+
+# Created at 2024-03-17T19:07:47.164
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.164
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 169 
+
+
+
+# Created at 2024-03-17T19:07:47.168
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.168
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 170 
+
+
+
+# Created at 2024-03-17T19:07:47.182
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.186
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 170 
+
+
+
+# Created at 2024-03-17T19:07:47.186
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.186
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 171 
+
+
+
+# Created at 2024-03-17T19:07:47.202
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.202
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 171 
+
+
+
+# Created at 2024-03-17T19:07:47.202
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.207
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 172 
+
+
+
+# Created at 2024-03-17T19:07:47.230
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.232
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 172 
+
+
+
+# Created at 2024-03-17T19:07:47.232
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.232
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 173 
+
+
+
+# Created at 2024-03-17T19:07:47.257
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.257
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 173 
+
+
+
+# Created at 2024-03-17T19:07:47.257
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.263
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 174 
+
+
+
+# Created at 2024-03-17T19:07:47.281
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.281
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 174 
+
+
+
+# Created at 2024-03-17T19:07:47.286
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.287
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 175 
+
+
+
+# Created at 2024-03-17T19:07:47.313
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.317
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 175 
+
+
+
+# Created at 2024-03-17T19:07:47.317
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.317
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 176 
+
+
+
+# Created at 2024-03-17T19:07:47.334
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.334
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 176 
+
+
+
+# Created at 2024-03-17T19:07:47.334
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.334
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 177 
+
+
+
+# Created at 2024-03-17T19:07:47.352
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.352
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 177 
+
+
+
+# Created at 2024-03-17T19:07:47.352
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.352
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 178 
+
+
+
+# Created at 2024-03-17T19:07:47.396
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.396
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 178 
+
+
+
+# Created at 2024-03-17T19:07:47.396
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.402
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 179 
+
+
+
+# Created at 2024-03-17T19:07:47.427
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.427
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 179 
+
+
+
+# Created at 2024-03-17T19:07:47.427
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.427
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 180 
+
+
+
+# Created at 2024-03-17T19:07:47.447
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.448
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 180 
+
+
+
+# Created at 2024-03-17T19:07:47.451
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.451
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 181 
+
+
+
+# Created at 2024-03-17T19:07:47.470
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.470
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 181 
+
+
+
+# Created at 2024-03-17T19:07:47.470
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.470
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 182 
+
+
+
+# Created at 2024-03-17T19:07:47.496
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.496
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 182 
+
+
+
+# Created at 2024-03-17T19:07:47.496
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.496
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 183 
+
+
+
+# Created at 2024-03-17T19:07:47.513
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.513
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 183 
+
+
+
+# Created at 2024-03-17T19:07:47.513
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.521
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 184 
+
+
+
+# Created at 2024-03-17T19:07:47.536
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.536
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 184 
+
+
+
+# Created at 2024-03-17T19:07:47.536
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.536
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 185 
+
+
+
+# Created at 2024-03-17T19:07:47.552
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.552
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 185 
+
+
+
+# Created at 2024-03-17T19:07:47.552
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.552
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 186 
+
+
+
+# Created at 2024-03-17T19:07:47.568
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.568
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 186 
+
+
+
+# Created at 2024-03-17T19:07:47.568
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.568
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 187 
+
+
+
+# Created at 2024-03-17T19:07:47.584
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.584
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 187 
+
+
+
+# Created at 2024-03-17T19:07:47.584
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.584
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 188 
+
+
+
+# Created at 2024-03-17T19:07:47.600
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.600
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 188 
+
+
+
+# Created at 2024-03-17T19:07:47.600
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.600
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 189 
+
+
+
+# Created at 2024-03-17T19:07:47.616
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.619
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 189 
+
+
+
+# Created at 2024-03-17T19:07:47.619
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.619
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 190 
+
+
+
+# Created at 2024-03-17T19:07:47.638
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.638
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 190 
+
+
+
+# Created at 2024-03-17T19:07:47.638
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.638
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 191 
+
+
+
+# Created at 2024-03-17T19:07:47.654
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.654
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 191 
+
+
+
+# Created at 2024-03-17T19:07:47.654
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.654
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 192 
+
+
+
+# Created at 2024-03-17T19:07:47.679
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.679
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 192 
+
+
+
+# Created at 2024-03-17T19:07:47.679
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.679
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 193 
+
+
+
+# Created at 2024-03-17T19:07:47.698
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.698
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 193 
+
+
+
+# Created at 2024-03-17T19:07:47.698
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.698
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 194 
+
+
+
+# Created at 2024-03-17T19:07:47.716
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.718
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 194 
+
+
+
+# Created at 2024-03-17T19:07:47.718
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.718
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 195 
+
+
+
+# Created at 2024-03-17T19:07:47.735
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.748
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 195 
+
+
+
+# Created at 2024-03-17T19:07:47.748
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.748
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 196 
+
+
+
+# Created at 2024-03-17T19:07:47.777
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.777
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 196 
+
+
+
+# Created at 2024-03-17T19:07:47.782
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.782
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 197 
+
+
+
+# Created at 2024-03-17T19:07:47.797
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.799
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 197 
+
+
+
+# Created at 2024-03-17T19:07:47.799
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.799
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 198 
+
+
+
+# Created at 2024-03-17T19:07:47.816
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.816
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 198 
+
+
+
+# Created at 2024-03-17T19:07:47.816
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.816
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 199 
+
+
+
+# Created at 2024-03-17T19:07:47.833
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.833
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 199 
+
+
+
+# Created at 2024-03-17T19:07:47.833
+Unexpected IOException: 6,1,kas.concurrente.modelos.EstacionamientoTest,conteoVecesEstacionado,null,null,null
+
+
+# Created at 2024-03-17T19:07:47.833
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,kas.concurrente.modelos.EstacionamientoTest,null,null,null
+
+
+# Created at 2024-03-17T19:07:47.833
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,kas.concurrente.modelos.LugarTest,null,null,null
+
+
+# Created at 2024-03-17T19:07:47.846
+Unexpected IOException: 5,1,kas.concurrente.modelos.LugarTest,constructorTest,null,null,null
+
+
+# Created at 2024-03-17T19:07:47.846
+Unexpected IOException: 6,1,kas.concurrente.modelos.LugarTest,constructorTest,null,null,null
+
+
+# Created at 2024-03-17T19:07:47.846
+Unexpected IOException: 5,1,kas.concurrente.modelos.LugarTest,estacionaTest,null,null,null
+
+
+# Created at 2024-03-17T19:07:47.846
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.846
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 entro al lugar 1 
+
+
+
+# Created at 2024-03-17T19:07:47.881
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: [34m
+
+
+# Created at 2024-03-17T19:07:47.881
+Unexpected IOException with stream: Mar 17, 2024 7:07:47 PM kas.concurrente.modelos.Lugar estaciona
+INFO: El proceso 1 dejo el lugar 1 
+
+
+
+# Created at 2024-03-17T19:07:47.881
+Unexpected IOException: 6,1,kas.concurrente.modelos.LugarTest,estacionaTest,null,null,null
+
+
+# Created at 2024-03-17T19:07:47.881
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,kas.concurrente.modelos.LugarTest,null,null,null
+
+

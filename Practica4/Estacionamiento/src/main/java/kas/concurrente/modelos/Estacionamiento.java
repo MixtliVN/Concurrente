@@ -1,6 +1,9 @@
 package kas.concurrente.modelos;
 
 import java.util.Random;
+import java.util.logging.Logger;
+
+import kas.concurrente.constante.Contante;
 
 /**
  * En esta clase se simula el estacionamiento en si
@@ -17,6 +20,7 @@ public class Estacionamiento {
     private int capacidad;
     private int lugaresDisponibles;
     private Random r = new Random(System.currentTimeMillis());
+    private static final Logger logger = Logger.getLogger(Estacionamiento.class.getName());
 
     /**
      * Metodo constructor
@@ -77,8 +81,11 @@ public class Estacionamiento {
      * @throws InterruptedException Si llega a fallar
      */
     public void entraCarro(int nombre) throws InterruptedException {
-        // System.out.format("Entro el carro %d al estacionamiento\n", nombre);
         int lugar = obtenLugar();
+        if (Contante.LOGS) {
+            logger.info((char) 27 + "[34m");
+            logger.info(String.format("El proceso %d entro al lugar %d \n", Thread.currentThread().getId(), lugar));
+        }
         asignaLugar(lugar);
     }
 
@@ -102,9 +109,14 @@ public class Estacionamiento {
      */
     public int obtenLugar() {
         int lugar = this.r.nextInt(capacidad);
-        return (this.lugares[lugar].getDisponible())? lugar : obtenLugar(); 
+        return (this.lugares[lugar].getDisponible()) ? lugar : obtenLugar();
     }
 
+    /**
+     * Retorna el atributo lugares
+     * 
+     * @return Lugar[]
+     */
     public Lugar[] getLugares() {
         return lugares;
     }

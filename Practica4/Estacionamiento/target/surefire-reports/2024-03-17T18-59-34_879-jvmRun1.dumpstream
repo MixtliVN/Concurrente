@@ -1,0 +1,553 @@
+# Created at 2024-03-17T19:01:15.281
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+# Created at 2024-03-17T19:01:18.559
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:18.559
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:18.559
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:18.567
+Unexpected IOException with stream: 25
+
+# Created at 2024-03-17T19:01:18.567
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:18.567
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:18.567
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:18.567
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:18.575
+Unexpected IOException with stream: 26
+
+# Created at 2024-03-17T19:01:18.575
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:20.590
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:20.601
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:20.601
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:20.605
+Unexpected IOException with stream: 26
+
+# Created at 2024-03-17T19:01:20.605
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:20.605
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:20.605
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:20.613
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:20.613
+Unexpected IOException with stream: 27
+
+# Created at 2024-03-17T19:01:20.613
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:25.629
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:25.629
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:25.629
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:25.629
+Unexpected IOException with stream: 27
+
+# Created at 2024-03-17T19:01:25.629
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:25.637
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:25.639
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:25.640
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:25.640
+Unexpected IOException with stream: 28
+
+# Created at 2024-03-17T19:01:25.640
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:29.657
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:29.657
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:29.662
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:29.665
+Unexpected IOException with stream: 28
+
+# Created at 2024-03-17T19:01:29.669
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:29.669
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:29.669
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:29.669
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:29.669
+Unexpected IOException with stream: 29
+
+# Created at 2024-03-17T19:01:29.677
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:33.681
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:33.681
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:33.681
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:33.681
+Unexpected IOException with stream: 29
+
+# Created at 2024-03-17T19:01:33.681
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:33.689
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:33.689
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:33.689
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:33.689
+Unexpected IOException with stream: 30
+
+# Created at 2024-03-17T19:01:33.689
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:36.716
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:36.722
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:36.722
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:36.731
+Unexpected IOException with stream: 30
+
+# Created at 2024-03-17T19:01:36.731
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:36.731
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:36.742
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:36.746
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:36.754
+Unexpected IOException with stream: 31
+
+# Created at 2024-03-17T19:01:36.754
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:40.762
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:40.762
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:40.762
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:40.762
+Unexpected IOException with stream: 31
+
+# Created at 2024-03-17T19:01:40.762
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:40.770
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:40.770
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:40.770
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:40.770
+Unexpected IOException with stream: 32
+
+# Created at 2024-03-17T19:01:40.770
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:41.780
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:41.784
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:41.787
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:41.790
+Unexpected IOException with stream: 32
+
+# Created at 2024-03-17T19:01:41.792
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:41.794
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:41.795
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:41.796
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:41.798
+Unexpected IOException with stream: 33
+
+# Created at 2024-03-17T19:01:41.800
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:45.812
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:45.817
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:45.817
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:45.820
+Unexpected IOException with stream: 33
+
+# Created at 2024-03-17T19:01:45.820
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:45.820
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:45.820
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:45.828
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:45.828
+Unexpected IOException with stream: 34
+
+# Created at 2024-03-17T19:01:45.833
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:47.844
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:47.844
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:47.844
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:47.851
+Unexpected IOException with stream: 34
+
+# Created at 2024-03-17T19:01:47.851
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:47.851
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:47.859
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:47.863
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:47.863
+Unexpected IOException with stream: 35
+
+# Created at 2024-03-17T19:01:47.867
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:48.872
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:48.872
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:48.872
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:48.880
+Unexpected IOException with stream: 35
+
+# Created at 2024-03-17T19:01:48.880
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:48.880
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:48.880
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:48.888
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:48.888
+Unexpected IOException with stream: 36
+
+# Created at 2024-03-17T19:01:48.888
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:52.893
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:52.893
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:52.897
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:52.897
+Unexpected IOException with stream: 36
+
+# Created at 2024-03-17T19:01:52.897
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:52.897
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:52.902
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:52.902
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:52.902
+Unexpected IOException with stream: 37
+
+# Created at 2024-03-17T19:01:52.902
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:56.912
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:56.915
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:56.915
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:56.915
+Unexpected IOException with stream: 37
+
+# Created at 2024-03-17T19:01:56.920
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:56.920
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:56.920
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:56.928
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:56.931
+Unexpected IOException with stream: 38
+
+# Created at 2024-03-17T19:01:56.931
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:58.937
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:58.937
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:58.937
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:58.945
+Unexpected IOException with stream: 38
+
+# Created at 2024-03-17T19:01:58.945
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:58.945
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:58.945
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:58.945
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:58.945
+Unexpected IOException with stream: 39
+
+# Created at 2024-03-17T19:01:58.953
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:59.966
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:59.966
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:59.966
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:01:59.974
+Unexpected IOException with stream: 39
+
+# Created at 2024-03-17T19:01:59.974
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:01:59.974
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:01:59.974
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:01:59.974
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:01:59.974
+Unexpected IOException with stream: 40
+
+# Created at 2024-03-17T19:01:59.982
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:02:00.994
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:02:00.994
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:02:00.994
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:02:00.994
+Unexpected IOException with stream: 40
+
+# Created at 2024-03-17T19:02:00.994
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:02:01.002
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:02:01.002
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:02:01.002
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:02:01.002
+Unexpected IOException with stream: 41
+
+# Created at 2024-03-17T19:02:01.002
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:02:04.008
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:02:04.008
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:02:04.014
+Unexpected IOException with stream:  dejo el lugar 
+
+# Created at 2024-03-17T19:02:04.018
+Unexpected IOException with stream: 41
+
+# Created at 2024-03-17T19:02:04.018
+Unexpected IOException with stream:  
+
+
+# Created at 2024-03-17T19:02:04.018
+Unexpected IOException with stream: El proceso 
+
+# Created at 2024-03-17T19:02:04.018
+Unexpected IOException with stream: 1
+
+# Created at 2024-03-17T19:02:04.018
+Unexpected IOException with stream:  entro al lugar 
+
+# Created at 2024-03-17T19:02:04.018
+Unexpected IOException with stream: 42
+
+# Created at 2024-03-17T19:02:04.030
+Unexpected IOException with stream:  
+
+

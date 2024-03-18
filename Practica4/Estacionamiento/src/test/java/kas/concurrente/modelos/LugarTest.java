@@ -1,12 +1,8 @@
 package kas.concurrente.modelos;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Semaphore;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -20,11 +16,6 @@ public class LugarTest {
     void setUp() throws InterruptedException{
         lugar = new Lugar(1);
         semaforo = new Semaphore(1);
-<<<<<<< HEAD
-       
-=======
-        //initHilos();
->>>>>>> 8eeb54a9c09f3c612a04e4f59cd28c5a01a93c5e
     }
 
     @Test
@@ -38,10 +29,17 @@ public class LugarTest {
         assertTrue(lugar.getDisponible());
     }
 
-    /**
-     * AGREGA 2 TEST MAS
-     * TEST bien hechos
-     */
+    @Test
+    void vecesEstacionado() throws InterruptedException{
+        lugar.estaciona();
+        lugar.estaciona();
+        assertTrue(lugar.getVecesEstacionado() == 2);
+    }
+
+    @Test
+    void cantidadPermisivos(){
+        assertTrue(lugar.getSemaforo().availablePermits() == 1);
+    }
 }
 
 
