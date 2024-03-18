@@ -11,6 +11,11 @@ import kass.concurrente.tenedor.Tenedor;
  * @author Kassandra Mirael
  */
 public abstract class Inversionista implements Runnable {
+    private int id;
+    private int tE;
+    private Tenedor leftF;
+    private Tenedor rightF;
+	
 
     @Override
     public void run() {
@@ -90,34 +95,34 @@ public abstract class Inversionista implements Runnable {
      * Cuando acabes borra estew comentario
      */
     public int getId(){
-        return 0;
+        return id;
     }
 
     public void setId(int id){
-
+	this.id = id;
     }
 
     public Tenedor getTenedorIzq(){
-        return null;
+        return leftF;
     }
 
     public void setTenedorIzq(Tenedor t){
-
+	this.leftF = t;
     }
 
     public Tenedor getTenedorDer(){
-        return null;
+        return rightF;
     }
 
     public void setTenedorDer(Tenedor t){
-
+	this.rightF = t;
     }
 
     public int getVecesComido(){
-        return 0;
+        return tE;
     }
 
     public void setVecesComido(int vecesComido){
-        
+        this.tE = vecesComido;
     }
 }
