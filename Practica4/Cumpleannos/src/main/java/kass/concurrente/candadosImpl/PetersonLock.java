@@ -16,9 +16,6 @@ public class PetersonLock implements Lock {
 
     @Override
     public void lock() {
-        // TODO Auto-generated method stub
-        //throw new UnsupportedOperationException("Unimplemented method 'lock'");
-	//int i = (int) Thread.currentThread().getId();
 	int i = Integer.parseInt(Thread.currentThread().getName());
 	i = i % 2;
         int j = 1 - i;
@@ -29,9 +26,6 @@ public class PetersonLock implements Lock {
 
     @Override
     public void unlock() {
-        // TODO Auto-generated method stub
-        //throw new UnsupportedOperationException("Unimplemented method 'unlock'");
-        //int i = (int) Thread.currentThread().getId();
 	int i = Integer.parseInt(Thread.currentThread().getName());
 	i = i % 2;
         flag[i] = false;

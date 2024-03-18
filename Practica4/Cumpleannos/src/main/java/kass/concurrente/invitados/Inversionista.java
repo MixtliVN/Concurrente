@@ -11,18 +11,22 @@ import kass.concurrente.tenedor.Tenedor;
  * @author Kassandra Mirael
  */
 public abstract class Inversionista implements Runnable {
-    private int id;
-    private int tE;
-    private Tenedor leftF;
-    private Tenedor rightF;
-	
+
+    protected Tenedor izq;
+    protected Tenedor der;
+    protected int id;
+    protected int vecesComido;
 
     @Override
     public void run() {
-        /**
-         * El inversionista debe pensar y entrar a la mesa un periodo de veces
-         * puesto en el test, agrega el valor aqui.
-         */
+        try {
+            while (true) {
+                piensa();
+                entraALaMesa();
+            }
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
     }
 
     /**
@@ -35,9 +39,9 @@ public abstract class Inversionista implements Runnable {
      * @throws InterruptedException <Escribe porque se lanzaria esta exception>
      */
     public void entraALaMesa() throws InterruptedException{
-        /**
-         * Aqui va tu codigo
-         */
+       tomaTenedores();
+       come();
+       sueltaTenedores();
     }
 
     /**
@@ -49,9 +53,10 @@ public abstract class Inversionista implements Runnable {
      * @throws InterruptedException <Escribe porque se lanzaria esta exception>
      */
     public void come() throws InterruptedException{
-        /**
-         * Aqui va tu codigo
-         */
+       vecesComido++;
+       System.out.println("Inversionista " + id + " esta comiendo...");
+       Thread.sleep(10); 
+       
     }
 
     /**
@@ -61,9 +66,8 @@ public abstract class Inversionista implements Runnable {
      * @throws InterruptedException <Escribe porque se lanzaria esta exception>
      */
     public void piensa() throws InterruptedException {
-        /**
-         * Aqui va tu codigo
-         */
+        System.out.println("Inversionista " + id + " esta pensando...");
+        Thread.sleep(this.generaTiempoDeEspera());
     }
 
     /**
@@ -89,40 +93,38 @@ public abstract class Inversionista implements Runnable {
         return (long)i ;
     }
 
-    /*
-     * Rellena Getter and Setters primero
-     * Documenta los metodos.
-     * Cuando acabes borra estew comentario
-     */
-    public int getId(){
+    public Tenedor getTenedorIzq() {
+        return izq;
+    }
+
+    public void setTenedorIzq(Tenedor izq) {
+        this.izq = izq;
+    }
+
+    public Tenedor getTenedorDer() {
+        return der;
+    }
+
+    public void setTenedorDer(Tenedor der) {
+        this.der = der;
+    }
+
+    public int getId() {
         return id;
     }
 
-    public void setId(int id){
-	this.id = id;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public Tenedor getTenedorIzq(){
-        return leftF;
+    public int getVecesComido() {
+        return vecesComido;
     }
 
-    public void setTenedorIzq(Tenedor t){
-	this.leftF = t;
+    public void setVecesComido(int vecesComido) {
+        this.vecesComido = vecesComido;
     }
 
-    public Tenedor getTenedorDer(){
-        return rightF;
-    }
 
-    public void setTenedorDer(Tenedor t){
-	this.rightF = t;
-    }
-
-    public int getVecesComido(){
-        return tE;
-    }
-
-    public void setVecesComido(int vecesComido){
-        this.tE = vecesComido;
-    }
+    
 }
