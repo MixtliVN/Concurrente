@@ -1,0 +1,12 @@
+Podríamos tener una aplicación de reserva de boletos para un teatro o un concierto, donde cada recurso representa un 
+asiento en el teatro o una entrada para el concierto.
+En este caso, podríamos usar el candado tipo filtro para controlar el acceso a estos recursos compartidos, asegurando 
+que no más de un número específico de hilos accedan a ellos simultáneamente. Esto sería útil para garantizar que 
+no se exceda la capacidad máxima de asientos o entradas disponibles.
+Para usar el candado tipo filtro en este escenario, podríamos inicializarlo con la cantidad máxima de asientos disponibles 
+en el teatro o el número máximo de entradas para el concierto. Cada hilo que intente reservar un asiento o una entrada 
+primero adquiriría el candado. El candado garantizaría que solo se permita un número limitado de hilos (por ejemplo, el 
+número máximo de asientos disponibles) acceder a los recursos compartidos al mismo tiempo. Una vez que un hilo haya reservado 
+un asiento o una entrada, liberaría el candado para permitir que otros hilos accedan a los recursos compartidos. 
+En general, esto evitaría que se vendan más entradas o se reserven más asientos de los disponibles.
+
