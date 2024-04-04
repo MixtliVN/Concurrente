@@ -1,5 +1,0 @@
--------------------------------------------------------------------------------
-Test set: kas.concurrente.LockTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.184 s - in kas.concurrente.LockTest
-clhLock  Time elapsed: 4.182 s
