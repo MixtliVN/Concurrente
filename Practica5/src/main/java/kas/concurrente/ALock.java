@@ -3,13 +3,7 @@ package kas.concurrente;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class ALock implements Lock {
-    ThreadLocal<Integer> mySlotIndex = new ThreadLocal<Integer>() {
-        @Override
-        protected Integer initialValue() {
-            return 0;
-        }
-    };
-
+    ThreadLocal<Integer> mySlotIndex = ThreadLocal.withInitial(() -> 0);
     AtomicInteger tail;
     volatile boolean[] flag;
 
@@ -24,19 +18,15 @@ public class ALock implements Lock {
 
     @Override
     public void lock() {
-        int slot;
-        while (true) {
-            slot = tail.getAndIncrement() % size;
-            if (flag[slot]) {
-                mySlotIndex.set(slot);
-                return;
-            } else {
-                // The lock is not available, so we need to spin
-                while (!flag[slot]) {
-                    // Busy wait
-                }
-            }
+        int slot = tail.getAndIncrement() % size;
+        
+        mySlotIndex.set(slot);
+
+        while (!flag[slot]) {
+            Thread.yield(); 
         }
+    
+       
     }
 
     @Override
@@ -44,7 +34,6 @@ public class ALock implements Lock {
         int slot = mySlotIndex.get();
         flag[slot] = false;
         flag[(slot + 1) % size] = true;
-        mySlotIndex.set(null);
     }
 
 }

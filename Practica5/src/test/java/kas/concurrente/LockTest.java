@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class LockTest {
-    static final int HILOS = 2;
+    static final int HILOS = 3;
     static final int ITERACIONES = 50;
     static final int MAX_VALOR = 1000000;
     static final int TAM_POR_HILO = MAX_VALOR/HILOS;
@@ -34,6 +34,7 @@ public class LockTest {
 
             for(int j = 0, trabajoFaltante = RESTANTE; j < hilos.length; ++j, --trabajoFaltante){
                 final int tam = TAM_POR_HILO + (trabajoFaltante> 0?1 : 0);
+                //System.out.println("Hilo " + j + " trabajara " + tam + " veces");
                 hilos[j] = new Thread(() -> incrementaContador(tam));
             }
 
@@ -50,25 +51,25 @@ public class LockTest {
     }   
 
     @Test
-    void tasLock() throws InterruptedException{
+    void tasLock() throws InterruptedException{ // pasa
         System.out.println("HILOS " + HILOS);
         ejecutaPrueba(new TASLock());
     }
 
     
     @Test
-    void ttasLock() throws InterruptedException {
+    void ttasLock() throws InterruptedException { // pasa
         ejecutaPrueba(new TTASLock());
     }
 
     
     @Test
-    void backoffLock() throws InterruptedException {
+    void backoffLock() throws InterruptedException { //pasa
         ejecutaPrueba(new BackoffLock());
     }
     
     @Test
-    void clhLock() throws InterruptedException {
+    void clhLock() throws InterruptedException {// pasa
         ejecutaPrueba(new CLHLock());
     }
     
