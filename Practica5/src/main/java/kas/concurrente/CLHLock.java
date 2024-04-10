@@ -2,25 +2,15 @@ package kas.concurrente;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-
 public class CLHLock implements Lock {
-
-    AtomicReference<QNode> tail;
-    ThreadLocal<QNode> myNode;
-    ThreadLocal<QNode> myPred;
+    private final AtomicReference<QNode> tail;
+    private final ThreadLocal<QNode> myNode;
+    private final ThreadLocal<QNode> myPred;
 
     public CLHLock() {
-        tail = new AtomicReference<QNode>(new QNode());
-        myNode = new ThreadLocal<QNode>() {
-            protected QNode initialValue() {
-                return new QNode();
-            }
-        };
-        myPred = new ThreadLocal<QNode>() {
-            protected QNode initialValue() {
-                return null;
-            }
-        };
+        tail = new AtomicReference<>(new QNode());
+        myNode = ThreadLocal.withInitial(QNode::new);
+        myPred = ThreadLocal.withInitial(() -> null);
     }
 
     @Override
@@ -30,6 +20,7 @@ public class CLHLock implements Lock {
         QNode pred = tail.getAndSet(qnode);
         myPred.set(pred);
         while (pred.locked) {
+            Thread.yield(); 
         }
     }
 
@@ -40,7 +31,7 @@ public class CLHLock implements Lock {
         myNode.set(myPred.get());
     }
 
-    class QNode {
-        volatile boolean locked = false;
+    private static class QNode {
+        volatile boolean locked = false; 
     }
 }

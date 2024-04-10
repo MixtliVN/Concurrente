@@ -1,0 +1,12 @@
+kas/concurrente/CLHLock$1.class
+kas/concurrente/Lock.class
+kas/concurrente/MCSLock.class
+kas/concurrente/TASLock.class
+kas/concurrente/Main.class
+kas/concurrente/ALock.class
+kas/concurrente/CLHLock.class
+kas/concurrente/CLHLock$QNode.class
+kas/concurrente/BackoffLock.class
+kas/concurrente/TTASLock.class
+kas/concurrente/Backoff.class
+kas/concurrente/QNode.class
