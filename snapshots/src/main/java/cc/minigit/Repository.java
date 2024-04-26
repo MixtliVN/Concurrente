@@ -15,6 +15,7 @@ public class Repository {
     private long nextCommitId; // Auto-incrementing commit id
     private String currentBranchName; // The current active branch
     private Util u;
+    
 
     public Repository() {
         commitHistory = new WFS<>(100); // Supongamos un máximo de 100 commits por rama
@@ -74,11 +75,11 @@ public class Repository {
         
         // Here, you could clone the directory state of the commit into the working directory using Util methods
         // Assuming Util.writeToFile(String path, String content) and Util.createFolder(String path) are available
-
+        Util.mkdir(branchName);
         for (Map.Entry<String, FileVersion> fileEntry : checkoutCommit.getFiles().entrySet()) {
             String filePath = fileEntry.getKey();
             String fileContent = fileEntry.getValue().getContent();
-            u.write(filePath, fileContent);
+            Util.write(branchName+Util.separador+filePath, fileContent);
         }
 
         currentBranchName = branchName; // Update current branch
@@ -113,6 +114,10 @@ public class Repository {
         }
         
         return false;
+    }
+
+    public List<Commit> getCurrentBranch() {
+        return branches.get(currentBranchName);
     }
 }
 

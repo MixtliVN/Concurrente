@@ -8,6 +8,8 @@ import java.io.FileWriter;   // Import the FileWriter class
 class Util {
 
     private String file;
+	private static final String so = System.getProperty("os.name");
+	public static final String separador = System.getProperty("file.separator");
 
     public void read(String filename) {
 	try {
@@ -25,7 +27,7 @@ class Util {
 	}
     }
 
-    public void write(String filename, String data) {
+    public static void write(String filename, String data) {
 	try {
 	    File myObj = new File(filename);
 	    FileWriter myWriter = new FileWriter(filename);
@@ -37,10 +39,12 @@ class Util {
 	}
     }
 
-    public void mkdir(String dirname){
+    public static void mkdir(String dirname){
 	File directory = new File(dirname);
 	directory.mkdir();
     }
+
+	
     /*
     public static void main(String[] args) {
 	Util u = new Util();
