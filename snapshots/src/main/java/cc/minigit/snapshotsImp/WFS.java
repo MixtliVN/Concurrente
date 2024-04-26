@@ -33,7 +33,7 @@ public class WFS<T> implements Snapshot<T> {
     @Override
     public void update(T value) {
         int[] stampHolder = new int[1];
-        int myIndex = Integer.parseInt(Thread.currentThread().getName());
+        int myIndex = (int)(Thread.currentThread().getId());
 
         StampedValue<T> oldValue = a_table[myIndex].get(stampHolder);
         StampedValue<T> newValue = new StampedValue<>(stampHolder[0] + 1, value);

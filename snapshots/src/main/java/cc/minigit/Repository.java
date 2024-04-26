@@ -14,7 +14,6 @@ public class Repository {
     private Map<String, FileVersion> stagingArea; // Staging area to store added files before commit
     private long nextCommitId; // Auto-incrementing commit id
     private String currentBranchName; // The current active branch
-    private Util u;
     
 
     public Repository() {
@@ -25,7 +24,6 @@ public class Repository {
         // Default branch
         branches.put("master", new ArrayList<>());
         currentBranchName = "master";
-	u = new Util();
     }
 
     public void add(String fileName, String content) {
@@ -42,12 +40,14 @@ public class Repository {
             new HashMap<>() : new HashMap<>(currentBranch.get(currentBranch.size() - 1).getFiles());
         newFilesState.putAll(stagingArea);
         
-        Commit newCommit = new Commit(nextCommitId++, newFilesState);
+        Commit newCommit = new Commit(message, nextCommitId++, newFilesState);
         currentBranch.add(newCommit);
-
+        commitHistory.update(newCommit);
         stagingArea.clear(); // Clear staging area after commit
         return newCommit.getId();
     }
+
+    
 
     public void push(String branchName) {
         if (!branches.containsKey(branchName)) {
@@ -68,11 +68,12 @@ public class Repository {
         }
         
         List<Commit> branchCommits = branches.get(branchName);
+    
         Commit checkoutCommit = branchCommits.stream()
             .filter(commit -> commit.getId() == commitId)
             .findFirst()
             .orElseThrow(() -> new IllegalArgumentException("Commit does not exist: " + commitId));
-        
+
         // Here, you could clone the directory state of the commit into the working directory using Util methods
         // Assuming Util.writeToFile(String path, String content) and Util.createFolder(String path) are available
         Util.mkdir(branchName);
@@ -85,7 +86,7 @@ public class Repository {
         currentBranchName = branchName; // Update current branch
         return "Checked out to commit " + commitId + " on branch " + branchName;
     }
-
+    
     public void createBranch(String branchName) {
         if (branches.containsKey(branchName)) {
             throw new IllegalArgumentException("Branch already exists: " + branchName);
