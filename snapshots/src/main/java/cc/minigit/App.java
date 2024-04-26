@@ -1,46 +1,54 @@
 package cc.minigit;
 
-import java.io.File;
-import java.util.Map;
+import java.util.logging.Logger;
 
 /**
- * Hello world!
- *
+ * Ejemplo de funcionamiento del sistema
+ * 
+ * @author Arroyo Erick
+ * @author Alex Terrazas
+ * @author Arturo Mixtli
+ * @version 1.0
  */
 public class App {
+    private static final Logger logger = Logger.getLogger(App.class.getName());
+    private static String master = "master";
+    private static String newFeature = "newFeature";
 
     public static void main(String[] args) {
-        // Create a new repository instance
+        // creamos el repositorio
         Repository repository = new Repository();
 
-        // Simulate adding files to the repository
+        // Agregamos archivos al repositorio
         repository.add("file1.txt", "This is the content of file1.");
         repository.add("file2.txt", "This is the content of file2.");
 
-        // Commit a master branch
+        // hacemos un commit en el repositorio (master)
         long commitId0 = repository.commit("Initial commit");
 
-        // Create a new branch and switch to it
-        repository.createBranch("new-feature");
-        String checkoutResult = repository.checkout("new-feature", commitId0);
-        System.out.println(checkoutResult);
+        // Creamos una nueva rama
+        repository.createBranch(App.newFeature);
+        String checkoutResult = repository.checkout(App.newFeature, commitId0);
+        App.logger.info(checkoutResult);
 
-        // Add more changes to the new branch
-        repository.add("file3.txt", "This is the content of file3 on new-feature branch.");
-        long commitId1 = repository.commit("Add file3");
+        // Agregamos un archivo a la nueva rama
+        repository.add("file3.txt", "This is the content of file3 onApp.newFeaturebranch.");
+        long commitId1 = repository.commit("File3 added toApp.newFeaturebranch");
 
-        // Switch back to master and commit another change
-        repository.checkout("new-feature", commitId1);
-        repository.checkout("master", commitId0);
-        repository.checkout("new-feature", commitId1);
-        repository.push("master");
-        repository.checkout("master", commitId1);
+        // cambiamos de rama
+        repository.checkout(App.newFeature, commitId1);
+        repository.checkout(App.master, commitId0);
+        repository.checkout(App.newFeature, commitId1);
+
+        // hacemos un push
+        repository.push(App.master);
+        repository.checkout(App.master, commitId1);
         repository.add("archivoPull.txt", "Este es el contenido del archivo que se va a hacer pull");
-        long commitId2 = repository.commit("Merge new-feature into master");
-        repository.pullRequest("master", "new-feature");
-        repository.checkout("new-feature", commitId2);
-        repository.checkout("master", commitId2);
-
+        long commitId2 = repository.commit("Pull request commit");
+        // hacemos un pullrequest
+        repository.pullRequest("master", App.newFeature);
+        repository.checkout(App.newFeature, commitId2);
+        repository.checkout(App.master, commitId2);
 
     }
 }

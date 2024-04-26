@@ -1,59 +1,67 @@
 package cc.minigit;
-import java.io.File;  // Import the File class
-import java.io.FileNotFoundException;  // Import this class to handle errors
-import java.util.Scanner; // Import the Scanner class to read text files
-import java.io.IOException;  // Import the IOException class to handle errors
-import java.io.FileWriter;   // Import the FileWriter class
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import java.util.logging.Logger;
+import java.io.FileWriter;
+
+/**
+ * Clase que representa una utilidad para manejar archivos
+ * 
+ * @author Arroyo Erick
+ * @author Alex Terrazas
+ * @author Arturo Mixtli
+ * @version 1.0
+ */
 class Util {
 
-    private String file;
-	private static final String so = System.getProperty("os.name");
-	public static final String separador = System.getProperty("file.separator");
+	public static final String SEPARADOR = System.getProperty("file.separator");
+	private static final Logger logger = Logger.getLogger(Util.class.getName());
 
-    public void read(String filename) {
-	try {
-	    file = "";
-	    File myObj = new File(filename);
-	    Scanner myReader = new Scanner(myObj);
-	    while (myReader.hasNextLine()) {
-		file = file + "\n" + myReader.nextLine();
-	    }
-	    myReader.close();
-	    System.out.println(file);
-	} catch (FileNotFoundException e) {
-	    System.out.println("An error occurred.");
-	    e.printStackTrace();
+	/**
+	 * Método que regresa el contenido del archivo
+	 * 
+	 * @param filename nombre del archivo
+	 */
+	public void read(String filename) {
+		try {
+			String file = "";
+			File myObj = new File(filename);
+			Scanner myReader = new Scanner(myObj);
+			while (myReader.hasNextLine()) {
+				file = file + "\n" + myReader.nextLine();
+			}
+			myReader.close();
+		} catch (FileNotFoundException e) {
+			Util.logger.warning("An error occurred.");
+			e.printStackTrace();
+		}
 	}
-    }
 
-    public static void write(String filename, String data) {
-	try {
-	    File myObj = new File(filename);
-	    FileWriter myWriter = new FileWriter(filename);
-	    myWriter.write(data);
-	    myWriter.close();
-	} catch (IOException e) {
-	    System.out.println("An error occurred.");
-	    e.printStackTrace();
+	/**
+	 * Método que escribe en un archivo
+	 * 
+	 * @param filename nombre del archivo
+	 * @param data     datos a escribir
+	 */
+	public static void write(String filename, String data) {
+		try (FileWriter myWriter = new FileWriter(filename)) {
+			myWriter.write(data);
+		} catch (Exception e) {
+			Util.logger.warning("An error occurred.");
+			e.printStackTrace();
+		}
 	}
-    }
 
-    public static void mkdir(String dirname){
-	File directory = new File(dirname);
-	directory.mkdir();
-    }
+	/**
+	 * Método que crea un directorio
+	 * 
+	 * @param dirname nombre del directorio
+	 */
+	public static void mkdir(String dirname) {
+		File directory = new File(dirname);
+		directory.mkdir();
+	}
 
-	
-    /*
-    public static void main(String[] args) {
-	Util u = new Util();
-	String f = "A.txt";
-	String d = "HOLA";
-	String dir = "A";
-	u.write(f, d);
-	u.read(f);
-	u.mkdir(dir);
-    }
-    */
 }
