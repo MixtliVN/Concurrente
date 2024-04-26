@@ -14,6 +14,7 @@ public class Repository {
     private Map<String, FileVersion> stagingArea; // Staging area to store added files before commit
     private long nextCommitId; // Auto-incrementing commit id
     private String currentBranchName; // The current active branch
+    private Util u;
 
     public Repository() {
         commitHistory = new WFS<>(100); // Supongamos un máximo de 100 commits por rama
@@ -23,6 +24,7 @@ public class Repository {
         // Default branch
         branches.put("master", new ArrayList<>());
         currentBranchName = "master";
+	u = new Util();
     }
 
     public void add(String fileName, String content) {
@@ -76,7 +78,7 @@ public class Repository {
         for (Map.Entry<String, FileVersion> fileEntry : checkoutCommit.getFiles().entrySet()) {
             String filePath = fileEntry.getKey();
             String fileContent = fileEntry.getValue().getContent();
-            // Util.writeToFile(filePath, fileContent);
+            u.write(filePath, fileContent);
         }
 
         currentBranchName = branchName; // Update current branch
