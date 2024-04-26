@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="kas.concurrente.LockTest" time="1,483.725" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="kas.concurrente.LockTest" time="645.272" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="419"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/erickarroyo/Desktop/Concurrente/Practica5/target/surefire/surefirebooter14595599216740125025.jar /Users/erickarroyo/Desktop/Concurrente/Practica5/target/surefire 2024-04-09T23-31-39_087-jvmRun1 surefire2367005462869293304tmp surefire_05043101074902972058tmp"/>
+    <property name="sun.java.command" value="/Users/erickarroyo/Desktop/Concurrente/Practica5/target/surefire/surefirebooter1007051579963291621.jar /Users/erickarroyo/Desktop/Concurrente/Practica5/target/surefire 2024-04-12T20-39-05_366-jvmRun1 surefire17621446452932802823tmp surefire_012628265040989791260tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="LockTest#clhLock"/>
+    <property name="test" value="LockTest#mcsLock"/>
     <property name="surefire.test.class.path" value="/Users/erickarroyo/Desktop/Concurrente/Practica5/target/test-classes:/Users/erickarroyo/Desktop/Concurrente/Practica5/target/classes:/Users/erickarroyo/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.1/junit-jupiter-5.5.1.jar:/Users/erickarroyo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/Users/erickarroyo/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/erickarroyo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/erickarroyo/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/Users/erickarroyo/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.1/junit-jupiter-params-5.5.1.jar:/Users/erickarroyo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/Users/erickarroyo/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/erickarroyo"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/erickarroyo/Desktop/Concurrente/Practica5/target/surefire/surefirebooter14595599216740125025.jar"/>
+    <property name="surefire.real.class.path" value="/Users/erickarroyo/Desktop/Concurrente/Practica5/target/surefire/surefirebooter1007051579963291621.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
@@ -55,5 +55,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="clhLock" classname="kas.concurrente.LockTest" time="1,483.721"/>
+  <testcase name="mcsLock" classname="kas.concurrente.LockTest" time="645.265"/>
 </testsuite>

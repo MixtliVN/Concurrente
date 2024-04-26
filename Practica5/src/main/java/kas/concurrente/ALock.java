@@ -23,8 +23,9 @@ public class ALock implements Lock {
         mySlotIndex.set(slot);
 
         while (!flag[slot]) {
+            Thread.yield();
         }
-        Thread.yield();
+        
 
     }
 
