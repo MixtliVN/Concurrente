@@ -24,20 +24,22 @@ class Util {
 	 * 
 	 * @param filename nombre del archivo
 	 */
-	public void read(String filename) {
-		try {
-			String file = "";
-			File myObj = new File(filename);
-			Scanner myReader = new Scanner(myObj);
+	public String read(String filename) {
+		StringBuilder fileContent = new StringBuilder();
+		try (Scanner myReader = new Scanner(new File(filename))) {
 			while (myReader.hasNextLine()) {
-				file = file + "\n" + myReader.nextLine();
+				if (fileContent.length() > 0) {
+					fileContent.append("\n");
+				}
+				fileContent.append(myReader.nextLine());
 			}
-			myReader.close();
 		} catch (FileNotFoundException e) {
-			Util.logger.warning("An error occurred.");
-			e.printStackTrace();
+			logger.warning("Error en Lectura de archivo [Archivo no encontrado]");
+			return null; // Or handle more gracefully
 		}
+		return fileContent.toString();
 	}
+	
 
 	/**
 	 * Método que escribe en un archivo
@@ -49,7 +51,7 @@ class Util {
 		try (FileWriter myWriter = new FileWriter(filename)) {
 			myWriter.write(data);
 		} catch (Exception e) {
-			Util.logger.warning("An error occurred.");
+			Util.logger.warning("Error en Lectura de archivo");
 			e.printStackTrace();
 		}
 	}
@@ -61,7 +63,9 @@ class Util {
 	 */
 	public static void mkdir(String dirname) {
 		File directory = new File(dirname);
-		directory.mkdir();
+		if (!directory.mkdir()) {
+			logger.warning("Error al crear el directorio: ");
+		}
 	}
 
 }

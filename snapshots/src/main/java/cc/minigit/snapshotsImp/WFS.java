@@ -28,7 +28,7 @@ public class WFS<T> implements Snapshot<T> {
      * 
      * @return StampedSnap<T> snapshot de los valores
      */
-    private StampedSnap<T> collect() {
+    public StampedSnap<T> collect() {
         StampedValue<T>[] values = (StampedValue<T>[]) new StampedValue[aTable.length];
         for (int i = 0; i < aTable.length; i++) {
             values[i] = aTable[i].get(new int[1]); // Extraemos el StampedValue del AtomicStampedReference

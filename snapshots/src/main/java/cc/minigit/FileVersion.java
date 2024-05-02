@@ -1,5 +1,7 @@
 package cc.minigit;
 
+import java.util.Objects;
+
 /**
  * Clase que representa una versión de un archivo
  * 
@@ -19,7 +21,7 @@ public class FileVersion {
      * @param commitId identificador del commit
      */
     public FileVersion(String content, long commitId) {
-        this.content = content;
+        this.content = Objects.requireNonNull(content, "content no puede ser nulo");
         this.commitId = commitId;
     }
 
@@ -39,5 +41,24 @@ public class FileVersion {
      */
     public long getCommitId() {
         return commitId;
+    }
+
+    /**
+     * Método que regresa el hash del contenido del archivo
+     * 
+     * @return String hash del contenido
+     */
+    public String getContentHash() {
+        return Integer.toString(content.hashCode());
+    }
+
+    /**
+     * Método que regresa si el contenido de dos archivos es el mismo
+     * 
+     * @param other archivo con el que se compara
+     * @return boolean true si el contenido es el mismo, false en otro caso
+     */
+    public boolean isSameContent(FileVersion other) {
+        return this.content.equals(other.content);
     }
 }

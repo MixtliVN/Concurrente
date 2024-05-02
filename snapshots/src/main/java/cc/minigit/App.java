@@ -12,43 +12,47 @@ import java.util.logging.Logger;
  */
 public class App {
     private static final Logger logger = Logger.getLogger(App.class.getName());
-    private static String master = "master";
-    private static String newFeature = "newFeature";
 
     public static void main(String[] args) {
-        // creamos el repositorio
-        Repository repository = new Repository();
+        try {
+            Repository repo = new Repository();
 
-        // Agregamos archivos al repositorio
-        repository.add("file1.txt", "This is the content of file1.");
-        repository.add("file2.txt", "This is the content of file2.");
+            // cargar el repositorio con un commit inicial
+            repo.add("file1.txt", "¡Hola, mundo!");
+            repo.add("file2.txt", "Este es un archivo de prueba.");
+            long commitId1 = repo.commit("Commit inicial");
 
-        // hacemos un commit en el repositorio (master)
-        long commitId0 = repository.commit("Initial commit");
+            // creamos la rama dev y la modificamos
+            repo.createBranch("dev");
+            repo.checkout("dev", commitId1);
+            repo.add("file2.txt", "Este es un archivo de prueba actualizado.");
+            // Para mas escenarios
+            // long commitId2 = repo.commit("Actualizar file2 en dev");
 
-        // Creamos una nueva rama
-        repository.createBranch(App.newFeature);
-        String checkoutResult = repository.checkout(App.newFeature, commitId0);
-        App.logger.info(checkoutResult);
+            // Hacer más cambios en 'master'.
+            repo.checkout("master", commitId1);
+            repo.add("file3.txt", "Este es un nuevo archivo en master.");
+            long commitId3 = repo.commit("Agregar file3 en master");
 
-        // Agregamos un archivo a la nueva rama
-        repository.add("file3.txt", "This is the content of file3 onApp.newFeaturebranch.");
-        long commitId1 = repository.commit("File3 added toApp.newFeaturebranch");
+            // hacemos pullrequest de dev a master
+            if (repo.pullRequest("dev", "master")) {
+                logger.info("El pull request se ha fusionado exitosamente.");
+            } else {
+                logger.info("El pull request no pudo fusionarse.");
+            }
 
-        // cambiamos de rama
-        repository.checkout(App.newFeature, commitId1);
-        repository.checkout(App.master, commitId0);
-        repository.checkout(App.newFeature, commitId1);
+            // empujamos los cambios a la rama dev
+            repo.push("dev");
 
-        // hacemos un push
-        repository.push(App.master);
-        repository.checkout(App.master, commitId1);
-        repository.add("archivoPull.txt", "Este es el contenido del archivo que se va a hacer pull");
-        long commitId2 = repository.commit("Pull request commit");
-        // hacemos un pullrequest
-        repository.pullRequest("master", App.newFeature);
-        repository.checkout(App.newFeature, commitId2);
-        repository.checkout(App.master, commitId2);
+            // Hacer checkout en 'dev' para verificar los cambios.
+            repo.checkout("dev", commitId3);
+            logger.info("Se ha hecho checkout a la rama dev exitosamente.");
+
+        } catch (Exception e) {
+            logger.info("Error durante interaccion del repositorio: " + e.getMessage());
+            e.printStackTrace();
+        }
 
     }
+
 }

@@ -1,7 +1,8 @@
 package cc.minigit;
 
-import java.util.HashMap;
+import java.util.Collections;
 import java.util.Map;
+import java.util.Objects;
 
 /**
  * Clase que representa un commit
@@ -25,8 +26,8 @@ public class Commit {
      */
     public Commit(String message, long id, Map<String, FileVersion> files) {
         this.id = id;
-        this.files = files;
-        this.message = message;
+        this.files = Objects.requireNonNull(files, "files no puede ser nulo");
+        this.message = Objects.requireNonNull(message, "meesage no puede ser nulo");
     }
 
     /**
@@ -44,7 +45,7 @@ public class Commit {
      * @return Map<String, FileVersion> archivos
      */
     public Map<String, FileVersion> getFiles() {
-        return new HashMap<>(files);
+        return Collections.unmodifiableMap(files);
     }
 
     /**
