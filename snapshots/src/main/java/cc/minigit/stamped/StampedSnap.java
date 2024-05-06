@@ -9,9 +9,9 @@ package cc.minigit.stamped;
  * @version 1.0
  */
 public class StampedSnap<T> {
-    final long stamp;
-    final T value;
-    final T[] snap;
+    private final long stamp;
+    private final T value;
+    private final T[] snap;
 
     /**
      * Constructor de la clase StampedSnap

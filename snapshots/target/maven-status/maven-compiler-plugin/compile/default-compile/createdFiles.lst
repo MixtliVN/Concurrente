@@ -1,0 +1,9 @@
+cc/minigit/App.class
+cc/minigit/snapshots/Snapshot.class
+cc/minigit/snapshotsImp/WFS.class
+cc/minigit/FileVersion.class
+cc/minigit/Repository.class
+cc/minigit/Util.class
+cc/minigit/Commit.class
+cc/minigit/stamped/StampedSnap.class
+cc/minigit/stamped/StampedValue.class

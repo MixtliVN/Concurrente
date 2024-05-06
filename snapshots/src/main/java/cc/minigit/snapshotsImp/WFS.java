@@ -16,6 +16,11 @@ import cc.minigit.stamped.StampedValue;
 public class WFS<T> implements Snapshot<T> {
     private AtomicStampedReference<StampedValue<T>>[] aTable;
 
+    /**
+     * Constructor de la clase
+     * 
+     * @param capacity capacidad de la tabla
+     */
     public WFS(int capacity) {
         aTable = (AtomicStampedReference<StampedValue<T>>[]) new AtomicStampedReference[capacity];
         for (int i = 0; i < aTable.length; i++) {
